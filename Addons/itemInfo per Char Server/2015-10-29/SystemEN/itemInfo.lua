@@ -5,10 +5,10 @@
 -- Credits to Neo-Mind for original code.
 
 -- Load the split function files
-require("SystemEN/LuaFiles514/itemInfo_f")
+require("System/LuaFiles514/itemInfo_f")
 
 -- Load the translation files
-dofile("SystemEN/LuaFiles514/itemInfo.lua")
+dofile("System/LuaFiles514/itemInfo.lua")
 
 -- Additional Configs
 -- Display origin server based on translation file's ServerName argument
@@ -30,7 +30,7 @@ DisplayDatabase = false
 tbl_custom = {
 	[501] = {
 		unidentifiedDisplayName = "Crimson Potion",
-		unidentifiedResourceName = "»¡°£Æ÷¼Ç",
+		unidentifiedResourceName = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 		unidentifiedDescriptionName = {
 			"A potion made from",
 			"grinded Red Herbs that",
@@ -39,7 +39,7 @@ tbl_custom = {
 			"Weight: ^7777777^000000"
 		},
 		identifiedDisplayName = "Crimson Potion",
-		identifiedResourceName = "»¡°£Æ÷¼Ç",
+		identifiedResourceName = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 		identifiedDescriptionName = {
 			"^000088HP Recovery Item^000000",
 			"A potion made from",

@@ -6,24 +6,24 @@
 
 tb_cashshop_banner = {
 	[1] = {
-		"rotp_cashshop.bmp",
-		"https://github.com/llchrisll/ROenglishRE"
+		"rAbanner.bmp",
+		"https://rathena.org/"
 	},
 	[2] = {
 		"rAbanner.bmp",
 		"https://rathena.org/"
 	},
 	[3] = {
-		"rotp_cashshop.bmp",
-		"https://github.com/llchrisll/ROenglishRE"
+		"rAbanner.bmp",
+		"https://rathena.org/"
 	},
 	[4] = {
 		"rAbanner.bmp",
 		"https://rathena.org/"
 	},
 	[5] = {
-		"rotp_cashshop.bmp",
-		"https://github.com/llchrisll/ROenglishRE"
+		"rAbanner.bmp",
+		"https://rathena.org/"
 	}
 }
 

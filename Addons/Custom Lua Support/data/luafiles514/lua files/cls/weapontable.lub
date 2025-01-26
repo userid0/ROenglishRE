@@ -11,7 +11,7 @@ Weapon_IDs_CLS = {
 
 WeaponNameTable_CLS = {
 	-- Weapon ID = File Names
-	-- Redirects to "ÀÎ°£Á·\<Class>\<Class>_<Gender>_<Value>"
+	-- Redirects to "ï¿½Î°ï¿½ï¿½ï¿½\<Class>\<Class>_<Gender>_<Value>"
 	-- [Weapon_IDs.WEAPONTYPE_] = ""
 }
 
@@ -32,7 +32,7 @@ BowTypeList_CLS = {
 	-- Weapon_IDs_CLS.WEAPONTYPE_
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(Weapon_IDs_CLS,Weapon_IDs)
 F_LuaTableMerge(WeaponNameTable_CLS,WeaponNameTable)
 F_LuaTableMerge(Expansion_Weapon_IDs_CLS,Expansion_Weapon_IDs)

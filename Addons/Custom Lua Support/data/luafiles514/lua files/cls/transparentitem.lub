@@ -11,6 +11,6 @@ transparentItemlist_CLS = {
 	{ 0, 0, 0, 0 }
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableInsert(transparentItemlist_CLS,transparentItemlist)
 --------------------------------------------------------------

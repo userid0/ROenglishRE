@@ -9143,7 +9143,7 @@ main = function()
 end
 
 -- Custom mapInfo
-if io.open("SystemEN/mapinfo_C.lub", "r") ~= nil then
+if io.open("System/mapinfo_C.lub", "r") ~= nil then
 	io.close()
-	dofile("SystemEN/mapinfo_C.lub")
+	dofile("System/mapinfo_C.lub")
 end

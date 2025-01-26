@@ -19,6 +19,6 @@
 mapTbl_C = {
 }
 ----------- DON'T TOUCH THE LINES BELOW -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(mapTbl_C,mapTbl,false)
 ---------------------------------------------------

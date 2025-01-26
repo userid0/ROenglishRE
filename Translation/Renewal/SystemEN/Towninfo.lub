@@ -456,7 +456,7 @@ function main()
 end
 
 -- Custom Towninfo
-if io.open("SystemEN/Towninfo_C.lub", "r") ~= nil then
+if io.open("System/Towninfo_C.lub", "r") ~= nil then
 	io.close()
-	dofile("SystemEN/Towninfo_C.lub")
+	dofile("System/Towninfo_C.lub")
 end

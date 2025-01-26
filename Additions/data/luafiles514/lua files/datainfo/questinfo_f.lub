@@ -5,9 +5,9 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 -- Last updated: 20241005
 
-require('SystemEN/LuaFiles514/rotp_f')
-dofile("SystemEN/OngoingQuests_C.lub")
-dofile("SystemEN/RecommendedQuests_C.lub")
+require('System/LuaFiles514/rotp_f')
+dofile("System/OngoingQuests_C.lub")
+dofile("System/RecommendedQuests_C.lub")
 -------------------------------------------------
 
 function GetOngoingQuestInfoByID(questID)

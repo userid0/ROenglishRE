@@ -3,7 +3,7 @@
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
 -- This file only works if used in combination with the
--- `SystemEN/Sign_Data.lub` (Translated Strings) which comes with this project
+-- `System/Sign_Data.lub` (Translated Strings) which comes with this project
 -- and the `Custom Lua Support`
 
 -- Format:
@@ -14,8 +14,8 @@
 -- IT_SIGNBOARD > Displays the text and image in a box
 -- IT_SPRITE > Not sure, even kRO doesn't use it at the moment
 --
--- Path: File Path of the .bmp file (Note: "À¯ÀúÀÎÅÍÆäÀÌ½º" can be skipped)
---       Example: "À¯ÀúÀÎÅÍÆäÀÌ½º\\item\\suffragium.bmp" or "item\\suffragium.bmp"
+-- Path: File Path of the .bmp file (Note: "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½" can be skipped)
+--       Example: "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½\\item\\suffragium.bmp" or "item\\suffragium.bmp"
 -- Content: What should be written in your signboard
 -- Char Color: I'm unsure myself, but default used by kRO is: "#0x00FFFFFF"
 
@@ -26,6 +26,6 @@ IT_SIGNBOARD = 3
 SignBoardList_CLS = {
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableInsert(SignBoardList_CLS,SignBoardList)
 --------------------------------------------------------------

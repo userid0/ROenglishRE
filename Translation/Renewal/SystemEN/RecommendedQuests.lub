@@ -161,7 +161,7 @@ RecommendedQuestInfoList = {
 		BgName = "reco_75.bmp",
 		QuestInfo1 = {
 			"The land beyond the northern sea where the legend of ^3169ceJormungand^000000 is told.",
-			"Will the ambitions of­ ^3169ceBagot^000000, who ran away with the piece of Ymir's heart, be stopped? What secrets is the ^3169ceJormungand Cult^000000 hiding?",
+			"Will the ambitions ofï¿½ ^3169ceBagot^000000, who ran away with the piece of Ymir's heart, be stopped? What secrets is the ^3169ceJormungand Cult^000000 hiding?",
 			"The airship, filled with anxiety, is now departing for ^3169ceIssgard^000000."
 		},
 		QuestInfo2 = {
@@ -194,7 +194,7 @@ RecommendedQuestInfoList = {
 			"(Summoner Job Level 60)"
 		},
 		QuestInfo3 = {
-			"^ff0000¤ For more detailed information, please check with the NPC for each job.^000000"
+			"^ff0000ï¿½ For more detailed information, please check with the NPC for each job.^000000"
 		}
 	},
 	[77] = {
@@ -204,7 +204,7 @@ RecommendedQuestInfoList = {
 		BgName = "reco_77.bmp",
 		NpcSpr = "4_EP17_BASIC_B",
 		QuestInfo1 = {
-			"Aren't you curious about the artificial habitat that Master Varmundt created within­ the <NAVI>[mansion]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI>?",
+			"Aren't you curious about the artificial habitat that Master Varmundt created withinï¿½ the <NAVI>[mansion]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI>?",
 			"We desperately need your help to defeat the monsters that have grown strangely strong after being isolated from the outside world for so long."
 		},
 		QuestInfo2 = {
@@ -226,7 +226,7 @@ RecommendedQuestInfoList = {
 		NpcPosY = "71",
 		QuestInfo1 = {
 			"^003355Someone has to do it^000000",
-			"°Unwelcome beings are emerging from beneath the eroded ruins of the sunken Endless Tower!",
+			"ï¿½Unwelcome beings are emerging from beneath the eroded ruins of the sunken Endless Tower!",
 			"You may not gain much wealth, but it will be a good experience... no, it could be a good experience. You, who seem to be putting in some effort, are no exception, right?"
 		},
 		QuestInfo2 = {
@@ -578,4 +578,4 @@ RecommendedQuestInfoList = {
 }
 
 -- Custom Recommended Quests
-dofile('SystemEN/RecommendedQuests_C.lub')
+dofile('System/RecommendedQuests_C.lub')
