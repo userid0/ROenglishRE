@@ -6,10 +6,10 @@
 -- For further information, please visit https://llchrisll.github.io/ROTPDocs/guides/customs/#multi-iteminfo-support.
 
 -- Load the splited function file
-require("SystemEN/LuaFiles514/itemInfo_f")
+require("System/LuaFiles514/itemInfo_f")
 
 -- Load the translation file
-dofile("SystemEN/LuaFiles514/itemInfo.lua")
+dofile("System/LuaFiles514/itemInfo.lua")
 
 -- Load additional files, like custom items, overrides and others
 -- New tables needs unique names, to import them you need to copy a "itemInfoMerge"
@@ -57,7 +57,7 @@ CustomTagStart = '['
 CustomTagEnd = ']'
 
 -- Server Name for your custom items
-CServerName = 'ExampleRO'
+CServerName = 'MoonLigh'
 
 -- Define the colour in which the custom Server Name should be shown (custom items)
 -- Format: '^<RRGGBB>'
@@ -85,11 +85,11 @@ ItemDatabase = {
 }
 
 ---------------- DON'T TOUCH THE LINES BELOW unless you know what you are doing ----------------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 
 -- Loop through each file in the "ImportFiles" table and load them
 for _, v in ipairs(ImportFiles) do
-	dofile('SystemEN/'..v)
+	dofile('System/'..v)
 end
 
 -- Loop through each table in the "ImportTables" table

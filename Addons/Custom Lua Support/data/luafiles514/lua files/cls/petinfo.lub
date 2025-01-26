@@ -43,7 +43,7 @@ PetFoodTable_CLS = {
 	-- [jobtbl_CLS.JT_] = 531
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(PetNameTable_CLS,PetNameTable)
 F_LuaTableMerge(PetIllustNameTable_CLS,PetIllustNameTable)
 F_LuaTableMerge(PetIllustNameTable_Eng_CLS,PetIllustNameTable_Eng)

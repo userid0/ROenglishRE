@@ -33,6 +33,6 @@ tblLapineUpgradeBox_CLS = {
 	}
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(tblLapineUpgradeBox_CLS.targets,tblLapineUpgradeBox.targets)
 --------------------------------------------------------------

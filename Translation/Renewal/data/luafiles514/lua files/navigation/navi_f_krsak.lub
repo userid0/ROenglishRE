@@ -6,7 +6,7 @@
 -- `System/Navi_Data_EN.lub` (Translated Strings) which comes with this project
 -- Last updated: 20240904
 
-dofile("SystemEN/Navi_Data.lub")
+dofile("System/Navi_Data.lub")
 
 function queryNavi_MapInfo(Index)
 	if Navi_Map[Index] ~= nil then

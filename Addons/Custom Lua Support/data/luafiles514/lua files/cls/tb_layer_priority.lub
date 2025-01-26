@@ -12,6 +12,6 @@ TB_Layer_Priority_CLS = {
 	}
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(TB_Layer_Priority_CLS.Items_List,TB_Layer_Priority.Items_List)
 --------------------------------------------------------------

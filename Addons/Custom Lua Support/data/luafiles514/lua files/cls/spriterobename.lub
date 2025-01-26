@@ -19,7 +19,7 @@ RobeTopLayer_CLS = {
 	-- SPRITE_ROBE_IDs_CLS.ROBE_,
 }
 -----------     DON'T TOUCH THESE LINES AT ALL     -----------
-require('SystemEN/LuaFiles514/rotp_f')
+require('System/LuaFiles514/rotp_f')
 F_LuaTableMerge(RobeNameTable_CLS,RobeNameTable)
 F_LuaTableMerge(RobeNameTable_Eng_CLS,RobeNameTable_Eng)
 F_LuaTableMerge(RobeTopLayer_CLS,RobeTopLayer)

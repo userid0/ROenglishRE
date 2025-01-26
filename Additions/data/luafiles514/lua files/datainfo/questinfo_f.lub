@@ -5,8 +5,8 @@
 -- This file only works if used in combination with the `Custom Lua Support`
 -- Last updated: 20241005
 
-dofile("SystemEN/OngoingQuests_C.lub")
-dofile("SystemEN/RecommendedQuests_C.lub")
+dofile("System/OngoingQuests_C.lub")
+dofile("System/RecommendedQuests_C.lub")
 
 ------ Additional config for Custom Quests ------
 -- Allows entries in OngoingQuests_C.lub and RecommendedQuests_C.lub to overwrite official entries: true/false
