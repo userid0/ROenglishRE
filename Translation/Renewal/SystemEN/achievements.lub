@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20231021
+-- Last updated: 20260322
 
 achievement_tbl = {
 	[110000] = {
@@ -3727,7 +3727,7 @@ achievement_tbl = {
 		title = "The way of exceptional character",
 		content = {
 			summary = "Job change to expanded classes",
-			details = "Taekwon, Gunslinger, Super Novice or Ninja."
+			details = "Taekwon, Gunslinger, Super Novice, Ninja or Druid."
 		},
 		resource = { [1] = { text = "Job change to expanded classes" } },
 		reward = { buff = 12 },
@@ -3741,7 +3741,7 @@ achievement_tbl = {
 		title = "This is My way!",
 		content = {
 			summary = "Job change to expanded 2nd classes",
-			details = "Soul Linker, Star Gladiator, Rebellion, Oboro or Kagerou."
+			details = "Soul Linker, Star Gladiator, Rebellion, Oboro/Kagerou or Karnos."
 		},
 		resource = { [1] = { text = "Expanded 2nd classes" } },
 		reward = { buff = 12, item = 16483 },

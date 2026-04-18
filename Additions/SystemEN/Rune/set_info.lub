@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 GradeTable = {
 	[1] = {10000, 10000, 10000, 9000, 9000, 8000, 7000, 6000, 5000, 4000, 3000, 2000, 1000, 500, 100},
@@ -13,7 +13,14 @@ GradeTable = {
 	[6] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70},
 	[7] = {100000, 100000, 100000, 90000, 90000, 90000, 80000, 80000, 80000, 70000, 70000, 70000, 60000, 60000, 50000},
 	[8] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
-	[9] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70}
+	[9] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70},
+	[10] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
+	[11] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70},
+	[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 
+	[13] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
+	[14] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70},
+	[15] = {15000, 15000, 15000, 13500, 13500, 12000, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 150},
+	[16] = {12000, 12000, 12000, 10500, 10500, 9000, 7500, 6000, 4500, 3000, 1500, 750, 750, 370, 70}
 }
 GradeTable_Fail = {
 	[1] = {4000, 4000, 4000, 3600, 3600, 3200, 2800, 2400, 2000, 1600, 1200, 800, 400, 200, 40},
@@ -24,7 +31,14 @@ GradeTable_Fail = {
 	[6] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40},
 	[7] = {0, 0, 0, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200, 2200},
 	[8] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
-	[9] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40}
+	[9] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40},
+	[10] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
+	[11] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40},
+	[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, 
+	[13] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
+	[14] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40},
+	[15] = {9000, 9000, 9000, 8100, 8100, 7200, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 90},
+	[16] = {7200, 7200, 7200, 6300, 6300, 5400, 4500, 3600, 2700, 1800, 900, 450, 450, 220, 40}
 }
 RuneSettbl_info = {
 	[RUNETAGIDTBL.EPISODE17] = {
@@ -354,6 +368,177 @@ RuneSettbl_info = {
 			RuneSet_UpGrade_Percentage_table = 9,
 			RuneSet_UpGrade_Percentage_table_Fail = 9
 		}
+	},
+	[RUNETAGIDTBL.EPISODE21] = {
+		[RUNESETIDTBL.Rt_Ep21_Gaebolg] = {
+			RuneSetRes = "Rt_Ep21_Gaebolg",
+			RuneSetActiveList = 333,
+			RuneSet_SlotList = {0, 0, RUNEIDTBL.Rp_Ep21_GaebolgA, RUNEIDTBL.Rp_Ep21_GaebolgB, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Icy] = {
+			RuneSetRes = "Rt_Ep21_Icy",
+			RuneSetActiveList = 334,
+			RuneSet_SlotList = {0, RUNEIDTBL.Rp_Ep21_Soft, RUNEIDTBL.Rp_Ep21_Shellfish, RUNEIDTBL.Rp_Ep21_Beast, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Yorker] = {
+			RuneSetRes = "Rt_Ep21_Yorker",
+			RuneSetActiveList = 335,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Yorker, 0, 0, RUNEIDTBL.Rp_Ep21_Yoster, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Working] = {
+			RuneSetRes = "Rt_Ep21_Working",
+			RuneSetActiveList = 336,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Yoster, RUNEIDTBL.Rp_Ep21_Yormi, 0, 0, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Admin] = {
+			RuneSetRes = "Rt_Ep21_Admin",
+			RuneSetActiveList = 337,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Yoscopus, 0, RUNEIDTBL.Rp_Ep21_Yordos, RUNEIDTBL.Rp_Ep21_Bishop, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Purify] = {
+			RuneSetRes = "Rt_Ep21_Purify",
+			RuneSetActiveList = 338,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Shellfish, RUNEIDTBL.Rp_Ep21_Beast, RUNEIDTBL.Rp_Ep21_Yoster, RUNEIDTBL.Rp_Ep21_Yormi, RUNEIDTBL.Rp_Ep21_Bishop, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Aid] = {
+			RuneSetRes = "Rt_Ep21_Aid",
+			RuneSetActiveList = 339,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Soft, RUNEIDTBL.Rp_Ep21_Yorker, RUNEIDTBL.Rp_Ep21_Yoster, RUNEIDTBL.Rp_Ep21_Yordos, 0, 0},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Company] = {
+			RuneSetRes = "Rt_Ep21_Company",
+			RuneSetActiveList = 340,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Arbiter, RUNEIDTBL.Rp_Ep21_Bishop, RUNEIDTBL.Rp_Ep21_Yoscopus, RUNEIDTBL.Rp_Ep21_Yordos, RUNEIDTBL.Rp_Ep21_Yormi, RUNEIDTBL.Rp_Ep21_Yoster},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Horn] = {
+			RuneSetRes = "Rt_Ep21_Horn",
+			RuneSetActiveList = 341,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ep21_Soft, RUNEIDTBL.Rp_Ep21_Yorker, RUNEIDTBL.Rp_Ep21_Horn, 0, RUNEIDTBL.Rp_Ep21_Shellfish, RUNEIDTBL.Rp_Ep21_Beast},
+			RuneSet_UpGradeList = {358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372},
+			RuneSet_UpGrade_Percentage_table = 13,
+			RuneSet_UpGrade_Percentage_table_Fail = 13
+		},
+		[RUNESETIDTBL.Rt_Ep21_Tan] = {
+			RuneSetRes = "Rt_Ep21_Tan",
+			RuneSetActiveList = 342,
+			RuneSet_SlotList = {0, 0, RUNEIDTBL.Rp_Ep21_Cap, RUNEIDTBL.Rp_Ep21_Tan, 0, 0},
+			RuneSet_UpGradeList = {373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387},
+			RuneSet_UpGrade_Percentage_table = 14,
+			RuneSet_UpGrade_Percentage_table_Fail = 14
+		}
+	},
+	[RUNETAGIDTBL.CHAPTER01] = {
+		[RUNESETIDTBL.Rt_Ch01_Armor] = {
+			RuneSetRes = "Rt_Ch01_Armor",
+			RuneSetActiveList = 286,
+			RuneSet_SlotList = {0, 0, RUNEIDTBL.Rp_Ch01_Armor_A, RUNEIDTBL.Rp_Ch01_Armor_B, 0, 0},
+			RuneSet_UpGradeList = {302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316},
+			RuneSet_UpGrade_Percentage_table = 10,
+			RuneSet_UpGrade_Percentage_table_Fail = 10
+		},
+		[RUNESETIDTBL.Rt_Ch01_Dimen] = {
+			RuneSetRes = "Rt_Ch01_Dimen",
+			RuneSetActiveList = 287,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Foot_BG, RUNEIDTBL.Rp_Ch01_Foot_HB, 0, RUNEIDTBL.Rp_Ch01_Foot_SS, RUNEIDTBL.Rp_Ch01_Foot_MS, RUNEIDTBL.Rp_Ch01_Foot_EB},
+			RuneSet_UpGradeList = {317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331},
+			RuneSet_UpGrade_Percentage_table = 10,
+			RuneSet_UpGrade_Percentage_table_Fail = 10
+		},
+		[RUNESETIDTBL.Rt_Ch01_Extra] = {
+			RuneSetRes = "Rt_Ch01_Extra",
+			RuneSetActiveList = 288,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Dimension_A, RUNEIDTBL.Rp_Ch01_Chaos_A, RUNEIDTBL.Rp_Ch01_Dimension_B, RUNEIDTBL.Rp_Ch01_Chaos_B, RUNEIDTBL.Rp_Ch01_Dimension_C, RUNEIDTBL.Rp_Ch01_Chaos_C},
+			RuneSet_UpGradeList = {332, 332, 332, 332, 332, 332, 332, 332, 332, 332, 332, 332, 332, 332, 332},
+			RuneSet_UpGrade_Percentage_table = 12,
+			RuneSet_UpGrade_Percentage_table_Fail = 12
+		}, 
+		[RUNESETIDTBL.Rt_Ch01_Bulgasari] = {
+			RuneSetRes = "Rt_Ch01_Bulgasari",
+			RuneSetActiveList = 388,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Rolling, 0, RUNEIDTBL.Rp_Ch01_Bulgasari, 0, RUNEIDTBL.Rp_Ch01_Volcano, 0},
+			RuneSet_UpGradeList = {424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438},
+			RuneSet_UpGrade_Percentage_table = 16,
+			RuneSet_UpGrade_Percentage_table_Fail = 16
+		},
+		[RUNESETIDTBL.Rt_Ch01_Glutto] = {
+			RuneSetRes = "Rt_Ch01_Glutto",
+			RuneSetActiveList = 389,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Glutto, 0, RUNEIDTBL.Rp_Ch01_Cutter, 0, 0, 0},
+			RuneSet_UpGradeList = {424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438},
+			RuneSet_UpGrade_Percentage_table = 16,
+			RuneSet_UpGrade_Percentage_table_Fail = 16
+		},
+		[RUNESETIDTBL.Rt_Ch01_Uncanny] = {
+			RuneSetRes = "Rt_Ch01_Uncanny",
+			RuneSetActiveList = 390,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Yggleaf, 0, RUNEIDTBL.Rp_Ch01_Peep, RUNEIDTBL.Rp_Ch01_Uncanny, 0, 0},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15
+		},
+		[RUNESETIDTBL.Rt_Ch01_Chunk] = {
+			RuneSetRes = "Rt_Ch01_Chunk",
+			RuneSetActiveList = 391,
+			RuneSet_SlotList = {0, RUNEIDTBL.Rp_Ch01_Knight, RUNEIDTBL.Rp_Ch01_Toxic, 0, RUNEIDTBL.Rp_Ch01_Chunk, 0},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15
+		},
+		[RUNESETIDTBL.Rt_Ch01_Noise] = {
+			RuneSetRes = "Rt_Ch01_Noise",
+			RuneSetActiveList = 392,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Noise, RUNEIDTBL.Rp_Ch01_Flowers, 0, 0, RUNEIDTBL.Rp_Ch01_Volcano, 0},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15
+		},
+		[RUNESETIDTBL.Rt_Ch01_Flowers] = {
+			RuneSetRes = "Rt_Ch01_Flowers",
+			RuneSetActiveList = 393,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Flowers, RUNEIDTBL.Rp_Ch01_Cutter, 0, RUNEIDTBL.Rp_Ch01_Noise, 0, 0},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15
+		},
+		[RUNESETIDTBL.Rt_Ch01_Toxic] = {
+			RuneSetRes = "Rt_Ch01_Toxic",
+			RuneSetActiveList = 394,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Uncanny, 0, RUNEIDTBL.Rp_Ch01_Knight, RUNEIDTBL.Rp_Ch01_Toxic, 0, RUNEIDTBL.Rp_Ch01_Chunk},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15
+		},
+		[RUNESETIDTBL.Rt_Ch01_Yggleaf] = {
+			RuneSetRes = "Rt_Ch01_Yggleaf",
+			RuneSetActiveList = 395,
+			RuneSet_SlotList = {RUNEIDTBL.Rp_Ch01_Rolling, RUNEIDTBL.Rp_Ch01_Volcano, 0, RUNEIDTBL.Rp_Ch01_Yggleaf, 0, RUNEIDTBL.Rp_Ch01_Peep},
+			RuneSet_UpGradeList = {409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423},
+			RuneSet_UpGrade_Percentage_table = 15,
+			RuneSet_UpGrade_Percentage_table_Fail = 15}
 	},
 	[RUNETAGIDTBL.EVT] = {
 		[RUNESETIDTBL.Rt_21th_Event] = {

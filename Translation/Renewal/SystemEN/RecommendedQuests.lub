@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250813
+-- Last updated: 20260322
 
 RecommendedQuestInfoList = {}
 RecommendedQuestInfoList = {
@@ -26,6 +26,104 @@ RecommendedQuestInfoList = {
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[3] = {
+		Title = "Prontera Spring Flower Festival",
+		IconName = "ico_ev.bmp",
+		Summary = "See you in Prontera in the spring",
+		BgName = "reco_03.bmp",
+		QuestInfo1 = {
+			"We invite you to the newly revamped Frontera Spring Flower Festival.",
+			"Please find <NAVI>[Seri]<INFO>prontera,137,327,0,101,0</INFO></NAVI> at the entrance of Prontera Royal Castle."
+		},
+		QuestInfo2 = {
+			"",
+			"^945945Anyone who is an adventurer with Base Level 20 or higher!^000000"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[9] = {
+		Title = "Chuseok with the bright full moon",
+		IconName = "ico_ev.bmp",
+		Summary = "Enjoy holiday food at Payon!",
+		BgName = "reco_09.bmp",
+		QuestInfo1 = {
+			"This year, a holiday food experience festival will be held in Payon.",
+			"Adventurers who didn't go back to their hometowns for Chuseok, would you like to try making songpyeon in <NAVI>[Payon]<INFO>payon,217,109,0,101,0</INFO></NAVI>?"
+		},
+		QuestInfo2 = {
+			"We also made songpyeon and ate yakgwa.",
+			"Have a happy Chuseok!"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[10] = {
+		Title = "Yuno Autumn Academic Festival",
+		IconName = "ico_ev.bmp",
+		Summary = "There are also crispy and delicious snacks!",
+		BgName = "reco_10.bmp",
+		QuestInfo1 = {
+			"At the Yuno Autumn Academic Festival, various academic societies and groups present their research achievements through various games and events.",
+			"<NAVI>[Lazy]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI> is finally waiting for everyone to come to Yuno!"
+		},
+		QuestInfo2 = {
+			"Enjoy a bountiful autumn by",
+			"browsing the various booths at the",
+			"Yuno Autumn Academic Festival!"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	},
+	[67] = {
+		Title = "Chapter 2: Song of the World Tree",
+		IconName = "ico_ep.bmp",
+		Summary = "~ Fragments of the Apocalypse ~",
+		NpcSpr = "4_CH1_DELEGACY01",
+		NpcNavi = "ygg_edge",
+		NpcPosX = 156,
+		NpcPosY = 179,
+		BgName = "reco_67.bmp",
+		QuestInfo1 = {
+			"Adventurer.",
+			"How are you?",
+			"Before I knew it, as I caressed the young leaves of the World Tree, a new journey was about to begin, following the wind.",
+			"I hope your footsteps can join us in Ashwood Village, where the wind begins.",
+			"",
+			"Sincerely, Lapine Sasha, eagerly awaiting."
+		},
+		QuestInfo2 = {
+			"Requirements:",
+			"^3275f0Base Level 225 or higher^000000",
+			"^3275f0Chapter 1: Song of the World Tree^000000"
+		},
+		QuestInfo3 = {
+			"Start Point",
+			"<NAVI>[Lapine Sasha]<INFO>ygg_edge,156,179,0,101,0</INFO></NAVI> is waiting for you.",
+			""
+		}
+	},
+	[68] = {
+		Title = "The World Tree Calls!",
+		IconName = "ico_jq.bmp",
+		Summary = "New Class, Druid!",
+		BgName = "reco_68.bmp",
+		QuestInfo1 = {
+			"O promising young adventurer!",
+			"Wouldn't you transform by inheriting the power of the World Tree?",
+			"<NAVI>[Small Ash Tree]<INFO>izlude,118,252,0,101,0</INFO></NAVI>"
+		},
+		QuestInfo2 = {
+			"Novice",
+			"Job Level 10"
+		},
+		QuestInfo3 = {
+			"^ff0000¤ For detailed information, please meet the Druid Ascendancy NPC.^000000"
 		}
 	},
 	[69] = {

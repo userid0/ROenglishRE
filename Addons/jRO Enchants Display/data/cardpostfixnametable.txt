@@ -470,6 +470,10 @@
 300666#
 300667#
 
+// Winter Hunting Competition
+300721#
+300722#
+
 // End of kRo Cards
 4039#
 4059#

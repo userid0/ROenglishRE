@@ -1,5 +1,5 @@
 // ==========================================================================
-// mp3NameTable.txt - Main Server, Last Modified: 2025-09-11 - Chapter 1: Abandoned Laboratory Zero Cell
+// mp3NameTable.txt - Main Server, Last Modified: 2026-01-29 - Eagle Five Collaboration
 // ==========================================================================
 //Map Name.rsw#bgm\\Music number#
 
@@ -54,6 +54,19 @@ iz_in_d.rsw#bgm\\26.mp3#
 // Summer Event Sesrumnir Ocean Week
 //ra_temple.rsw#bgm\\139.mp3#
 ra_temple.rsw#bgm\\95.mp3#
+
+// Science Ninja Team Gatchaman, Eagle Five Collaboration
+1@gat.rsw#bgm\\22.mp3#
+
+// Druid
+veledor.rsw#bgm\\204.mp3#
+1@krns.rsw#bgm\\204.mp3#
+1@alta.rsw#bgm\\205.mp3#
+
+// Prontera Outskirts Training Ground Renewal
+tra_fild01.rsw#bgm\\09.mp3#
+tra_fild02.rsw#bgm\\09.mp3#
+tra_fild03.rsw#bgm\\09.mp3#
 
 // Chapter 1: Abandoned Laboratory Zerocell
 ch1fild1.rsw#bgm\\205.mp3#

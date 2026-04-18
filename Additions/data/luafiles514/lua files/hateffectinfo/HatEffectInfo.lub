@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 hatEffectTable = {
 	[HatEFID.HAT_EF_Blossom_Fluttering] = {
@@ -307,7 +307,8 @@ hatEffectTable = {
 		hatEffectPos = -11,
 		hatEffectPosX = -1,
 		isAdjustPositionWhenShrinkState = true,
-		isAdjustSizeWhenShrinkState = true
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
 	},
 	[HatEFID.HAT_EF_C_Popping_Poring_Aura] = {
 		resourceFileName = "efst_C_Popping_Poring_Aura\\C_Popping_Poring_Aura.str",
@@ -673,7 +674,7 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_C_Astra_Blessing] = {
 		resourceFileName = "efst_C_Astra_Blessing\\astra.str",
 		hatEffectPos = -11,
-		hatEffectPosX = 0,
+		hatEffectPosX = -0.3,
 		isIgnoreRiding = true,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
@@ -971,7 +972,7 @@ hatEffectTable = {
 	[HatEFID.HAT_EF_Niflheim_Night_Sky] = {
 		resourceFileName = "efst_Niflheim_Night_Sky\\halloween.str",
 		hatEffectPos = -11,
-		hatEffectPosX = 0,
+		hatEffectPosX = -0.3,
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isRenderBeforeCharacter = true
@@ -1199,5 +1200,96 @@ hatEffectTable = {
 		isAdjustPositionWhenShrinkState = true,
 		isAdjustSizeWhenShrinkState = true,
 		isRenderBeforeCharacter = true
-	}
+	},
+	[HatEFID.HAT_EF_ROS_RedSpirit] = {
+		resourceFileName = "efst_ROS_RedSpirit\\kiaura1.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_ROS_BlueSpirit] = {
+		resourceFileName = "efst_ROS_BlueSpirit\\kiaura2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_Divine_Sky_Invite] = {
+		resourceFileName = "efst_Divine_Sky_Invite\\Midgard2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Nightmare_Chain] = {
+		resourceFileName = "efst_C_Nightmare_Chain\\rrrooo2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_Spot_Mike] = {
+		resourceFileName = "C_Spot_Mike\\Spotlight2.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Spot_Flower] = {
+		resourceFileName = "C_Spot_Flower\\Spotlight1.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_2025RosFesta] = { hatEffectID = 2443 },
+	[HatEFID.HAT_EF_Golden_Aura_TW] = {
+		resourceFileName = "efst_Golden_Aura_TW\\fhlostwing2.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0.5,
+		isIgnoreRiding = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_S_Beelzebub_Wing] = { hatEffectID = 2458 },
+	[HatEFID.HAT_EF_Solid_State_Recognition] = {
+		resourceFileName = "Solid_State_Recognition\\mdenv.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isIgnoreRiding = true,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true
+	},
+	[HatEFID.HAT_EF_C_Cursed_Serpent] = {
+		resourceFileName = "efst_C_Cursed_Serpent\\encro.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_GGH_Anniversary] = {
+		resourceFileName = "efst_C_GGH_Anniversary\\gghanniversary1.str",
+		hatEffectPos = -11,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_CLB_GAT_doc] = {
+		resourceFileName = "efst_C_CLB_GAT_doc\\Gatchamanvi.str",
+		hatEffectPos = -6,
+		hatEffectPosX = 0,
+		isAdjustPositionWhenShrinkState = true,
+		isAdjustSizeWhenShrinkState = true,
+		isRenderBeforeCharacter = true
+	},
+	[HatEFID.HAT_EF_C_EYE_OF_NECROMANCER] = { hatEffectID = 2482 },
+	[HatEFID.HAT_EF_C_JAOW_PIRUN] = { hatEffectID = 2483 }
 }

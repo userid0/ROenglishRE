@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 Runetbl_desc = {
 	[RUNETAGIDTBL.EPISODE17] = {
@@ -92,6 +92,51 @@ Runetbl_desc = {
 		[RUNEIDTBL.Rp_Ep20_Ranger] = {Rune_DisplayName = "Jormun Squadron"},
 		[RUNEIDTBL.Rp_Ep20_Sweeper] = {Rune_DisplayName = "Sweeper"},
 		[RUNEIDTBL.Rp_Ep20_Ult] = {Rune_DisplayName = "Ultimate"}
+	},
+	[RUNETAGIDTBL.EPISODE21] = {
+		[RUNEIDTBL.Rp_Ep21_GaebolgA] = {Rune_DisplayName = "Gaebolg A"},
+		[RUNEIDTBL.Rp_Ep21_GaebolgB] = {Rune_DisplayName = "Gaebolg B"},
+		[RUNEIDTBL.Rp_Ep21_Shellfish] = {Rune_DisplayName = "Ice Sea Seafood"},
+		[RUNEIDTBL.Rp_Ep21_Beast] = {Rune_DisplayName = "Ice Sea Seawater"},
+		[RUNEIDTBL.Rp_Ep21_Soft] = {Rune_DisplayName = "Fluffy Soft"},
+		[RUNEIDTBL.Rp_Ep21_Yorker] = {Rune_DisplayName = "Yorker"},
+		[RUNEIDTBL.Rp_Ep21_Yoster] = {Rune_DisplayName = "Yoster Squadron"},
+		[RUNEIDTBL.Rp_Ep21_Yormi] = {Rune_DisplayName = "Yormi Duo"},
+		[RUNEIDTBL.Rp_Ep21_Yordos] = {Rune_DisplayName = "Yordos Trio"},
+		[RUNEIDTBL.Rp_Ep21_Yoscopus] = {Rune_DisplayName = "Yoscopus"},
+		[RUNEIDTBL.Rp_Ep21_Bishop] = {Rune_DisplayName = "Bishop"},
+		[RUNEIDTBL.Rp_Ep21_Horn] = {Rune_DisplayName = "Ice Horn"},
+		[RUNEIDTBL.Rp_Ep21_Arbiter] = {Rune_DisplayName = "Arbiter"},
+		[RUNEIDTBL.Rp_Ep21_Cap] = {Rune_DisplayName = "Ghost Captain"},
+		[RUNEIDTBL.Rp_Ep21_Tan] = {Rune_DisplayName = "Tan"}
+	},
+	[RUNETAGIDTBL.CHAPTER01] = {
+		[RUNEIDTBL.Rp_Ch01_Armor_A] = {Rune_DisplayName = "Entwined Armor A"},
+		[RUNEIDTBL.Rp_Ch01_Armor_B] = {Rune_DisplayName = "Entwined Armor B"},
+		[RUNEIDTBL.Rp_Ch01_Foot_BG] = {Rune_DisplayName = "Warrior's Footsteps"},
+		[RUNEIDTBL.Rp_Ch01_Foot_HB] = {Rune_DisplayName = "Hunter's Footsteps"},
+		[RUNEIDTBL.Rp_Ch01_Foot_SS] = {Rune_DisplayName = "Wise One's Footsteps"},
+		[RUNEIDTBL.Rp_Ch01_Foot_MS] = {Rune_DisplayName = "Sorcerer's Footsteps"},
+		[RUNEIDTBL.Rp_Ch01_Foot_EB] = {Rune_DisplayName = "Executioner's Footsteps"},
+		[RUNEIDTBL.Rp_Ch01_Dimension_A] = {Rune_DisplayName = "Dimensional Frontier Stone"},
+		[RUNEIDTBL.Rp_Ch01_Dimension_B] = {Rune_DisplayName = "Dimensional Energy"},
+		[RUNEIDTBL.Rp_Ch01_Dimension_C] = {Rune_DisplayName = "Dimensional Essence"},
+		[RUNEIDTBL.Rp_Ch01_Chaos_A] = {Rune_DisplayName = "Fragment of Chaos"},
+		[RUNEIDTBL.Rp_Ch01_Chaos_B] = {Rune_DisplayName = "Rune of Chaos"},
+		[RUNEIDTBL.Rp_Ch01_Chaos_C] = {Rune_DisplayName = "Essence of Chaos"},
+		[RUNEIDTBL.Rp_Ch01_Rolling] = {Rune_DisplayName = "Rolling"},
+		[RUNEIDTBL.Rp_Ch01_Volcano] = {Rune_DisplayName = "Volcano"},
+		[RUNEIDTBL.Rp_Ch01_Yggleaf] = {Rune_DisplayName = "Yggleaf"},
+		[RUNEIDTBL.Rp_Ch01_Noise] = {Rune_DisplayName = "Noise"},
+		[RUNEIDTBL.Rp_Ch01_Flowers] = {Rune_DisplayName = "Flowers Bouquet"},
+		[RUNEIDTBL.Rp_Ch01_Chunk] = {Rune_DisplayName = "Junk Disposal Squad"},
+		[RUNEIDTBL.Rp_Ch01_Toxic] = {Rune_DisplayName = "Toxic Gathering"},
+		[RUNEIDTBL.Rp_Ch01_Knight] = {Rune_DisplayName = "Knightage"},
+		[RUNEIDTBL.Rp_Ch01_Cutter] = {Rune_DisplayName = "Creepy Flowers"},
+		[RUNEIDTBL.Rp_Ch01_Peep] = {Rune_DisplayName = "Polluted"},
+		[RUNEIDTBL.Rp_Ch01_Uncanny] = {Rune_DisplayName = "Uncanny Legion"},
+		[RUNEIDTBL.Rp_Ch01_Bulgasari] = {Rune_DisplayName = "Bulgasari"},
+		[RUNEIDTBL.Rp_Ch01_Glutto] = {Rune_DisplayName = "Glutto"}
 	},
 	[RUNETAGIDTBL.EVT] = {
 		[RUNEIDTBL.Rp_21th_Poring] = {Rune_DisplayName = "Night Market Poring"},

@@ -2,10 +2,23 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 tblLapineUpgradeBox = {
 	targets = {
+		["26_3_MidHat_UP"] = {
+			ItemID = 106502,
+			NeedRefineMin = 0,
+			NeedRefineMax = 10,
+			NeedOptionNumMin = 0,
+			NotSocketEnchantItem = true,
+			TargetItems = {
+				{"26_3_MidHat1_", 410590},
+				{"26_3_MidHat2_", 410591},
+				{"26_3_MidHat3_", 410592}
+			},
+			NeedSource_String = "Mermaid Headphones"
+		},
 		Loki_Coin_4 = {
 			ItemID = 102676,
 			NeedRefineMin = 0,
@@ -672,7 +685,9 @@ tblLapineUpgradeBox = {
 				{"Adulter_F_C_Rope", 580017},
 				{"Adulter_F_Ribbon", 580018},
 				{"Adulter_F_Mace", 590021},
-				{"Adulter_F_Hall", 590022}
+				{"Adulter_F_Hall", 590022},
+				{"Adulter_F_N_Hall", 590105},
+				{"Adulter_F_N_Axe", 520049}
 			},
 			NeedSource_String = "False Belief Weapons"
 		},
@@ -721,7 +736,9 @@ tblLapineUpgradeBox = {
 				{"Adulter_F_C_Rope", 580017},
 				{"Adulter_F_Ribbon", 580018},
 				{"Adulter_F_Mace", 590021},
-				{"Adulter_F_Hall", 590022}
+				{"Adulter_F_Hall", 590022},
+				{"Adulter_F_N_Hall", 590105},
+				{"Adulter_F_N_Axe", 520049}
 			},
 			NeedSource_String = "False Belief Weapons"
 		},
@@ -770,7 +787,9 @@ tblLapineUpgradeBox = {
 				{"Vivatus_F_Shotgun", 820006},
 				{"Vivatus_F_Revolver", 800012},
 				{"Vivatus_F_C_Humma", 650021},
-				{"Vivatus_F_Humma", 650022}
+				{"Vivatus_F_Humma", 650022},
+				{"Vivatus_F_N_Axe", 520050},
+				{"Vivatus_F_N_Hall", 590106}
 			},
 			NeedSource_String = "True Belief Weapons"
 		},
@@ -819,7 +838,9 @@ tblLapineUpgradeBox = {
 				{"Vivatus_F_Shotgun", 820006},
 				{"Vivatus_F_Revolver", 800012},
 				{"Vivatus_F_C_Humma", 650021},
-				{"Vivatus_F_Humma", 650022}
+				{"Vivatus_F_Humma", 650022},
+				{"Vivatus_F_N_Axe", 520050},
+				{"Vivatus_F_N_Hall", 590106}
 			},
 			NeedSource_String = "True Belief Weapons"
 		},
@@ -913,7 +934,9 @@ tblLapineUpgradeBox = {
 				{"Poenitentia_Radius", 540044},
 				{"Poenitentia_Ramus", 550060},
 				{"Poenitentia_Planta", 550061},
-				{"Poenitentia_Ferrum", 550062}
+				{"Poenitentia_Ferrum", 550062},
+				{"Poenitentia_Securis", 520048},
+				{"Poenitentia_Scipione", 590103}
 			},
 			NeedSource_String = "Poenitentia Weapon (Physical)"
 		},
@@ -959,7 +982,9 @@ tblLapineUpgradeBox = {
 				{"Poenitentia_Radius", 540044},
 				{"Poenitentia_Ramus", 550060},
 				{"Poenitentia_Planta", 550061},
-				{"Poenitentia_Ferrum", 550062}
+				{"Poenitentia_Ferrum", 550062},
+				{"Poenitentia_Securis", 520048},
+				{"Poenitentia_Scipione", 590103}
 			},
 			NeedSource_String = "Poenitentia Weapon (Physical)"
 		},
@@ -1005,7 +1030,9 @@ tblLapineUpgradeBox = {
 				{"Poenitentia_Radius", 540044},
 				{"Poenitentia_Ramus", 550060},
 				{"Poenitentia_Planta", 550061},
-				{"Poenitentia_Ferrum", 550062}
+				{"Poenitentia_Ferrum", 550062},
+				{"Poenitentia_Securis", 520048},
+				{"Poenitentia_Scipione", 590103}
 			},
 			NeedSource_String = "Poenitentia Weapon (Magical)"
 		},
@@ -1051,7 +1078,9 @@ tblLapineUpgradeBox = {
 				{"Poenitentia_Radius", 540044},
 				{"Poenitentia_Ramus", 550060},
 				{"Poenitentia_Planta", 550061},
-				{"Poenitentia_Ferrum", 550062}
+				{"Poenitentia_Ferrum", 550062},
+				{"Poenitentia_Securis", 520048},
+				{"Poenitentia_Scipione", 590103}
 			},
 			NeedSource_String = "Poenitentia Weapon (Magical)"
 		},
@@ -1234,7 +1263,8 @@ tblLapineUpgradeBox = {
 				{"S_Circlet_Of_Time_OB", 19489},
 				{"S_Circlet_Of_Time_KG", 19490},
 				{"S_Circlet_Of_Time_NV", 19491},
-				{"S_Circlet_Of_Time_SU", 19492}
+				{"S_Circlet_Of_Time_SU", 19492},
+				{"S_Circlet_Of_Time_KR", 400998}
 			},
 			NeedSource_String = "Circlet of Time"
 		},
@@ -1419,7 +1449,8 @@ tblLapineUpgradeBox = {
 				{"ElectricFox_OS", 26164},
 				{"Circuit_Board_OS", 28629},
 				{"Kuroiro_OS", 28755},
-				{"Boost_Lance_OS", 32019}
+				{"Boost_Lance_OS", 32019},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2564,7 +2595,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2590,7 +2622,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2616,7 +2649,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2642,7 +2676,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2668,7 +2703,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -2694,7 +2730,8 @@ tblLapineUpgradeBox = {
 				{"AC_B44_OS", 18180},
 				{"Boost_Lance_OS", 32019},
 				{"Ultio_Spes_OS", 16089},
-				{"ElectricFox_OS", 26164}
+				{"ElectricFox_OS", 26164},
+				{"Repeat_Dagger_OS", 510184}
 			},
 			NeedSource_String = "OS Weapons"
 		},
@@ -3801,7 +3838,43 @@ tblLapineUpgradeBox = {
 				{"S_SKE_MS_Earring", 1270099},
 				{"S_SKE_MS_Pendant", 1270100},
 				{"S_SKE_DB_Armor", 1270101},
-				{"S_SKE_DB_Shoes", 1270102}
+				{"S_SKE_DB_Shoes", 1270102},
+				{"S_CD_FP_Earring", 1270115},
+				{"S_CD_FP_Pendant", 1270116},
+				{"S_CD_EP_Armor", 1270117},
+				{"S_CD_EP_Shoes", 1270118},
+				{"S_EM_DS_Earring", 1270119},
+				{"S_EM_DS_Pendant", 1270120},
+				{"S_EM_TP_Armor", 1270121},
+				{"S_EM_TP_Shoes", 1270122},
+				{"S_SS_KK_Earring", 1270123},
+				{"S_SS_KK_Pendant", 1270124},
+				{"S_SS_KF_Armor", 1270125},
+				{"S_SS_KF_Shoes", 1270126},
+				{"S_WH_WH_Earring", 1270130},
+				{"S_WH_WH_Pendant", 1270131},
+				{"S_WH_AT_Armor", 1270132},
+				{"S_WH_AT_Shoes", 1270133},
+				{"S_TR_MS_Earring", 1270134},
+				{"S_TR_MS_Pendant", 1270135},
+				{"S_TR_RB_Armor", 1270136},
+				{"S_TR_RB_Shoes", 1270137},
+				{"S_NW_MS_Earring", 1270138},
+				{"S_NW_MS_Pendant", 1270139},
+				{"S_NW_NF_Armor", 1270140},
+				{"S_NW_NF_Shoes", 1270141}, 
+				{"S_AT_APF_Armor", 1270175}, 
+				{"S_AT_APF_Shoes", 1270176}, 
+				{"S_AT_PSP_Earring", 1270177}, 
+				{"S_AT_PSP_Pendant", 1270178}, 
+				{"S_AT_SNO_Armor", 1270179}, 
+				{"S_AT_SNO_Shoes", 1270180}, 
+				{"S_AT_TPA_Earring", 1270181}, 
+				{"S_AT_TPA_Pendant", 1270182}, 
+				{"S_AT_Armor", 1270183}, 
+				{"S_AT_Shoes", 1270184}, 
+				{"S_AT_Earring", 1270185}, 
+				{"S_AT_Pendant", 1270186}
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -4744,7 +4817,43 @@ tblLapineUpgradeBox = {
 				{"S_SKE_MS_Earring", 1270099},
 				{"S_SKE_MS_Pendant", 1270100},
 				{"S_SKE_DB_Armor", 1270101},
-				{"S_SKE_DB_Shoes", 1270102}
+				{"S_SKE_DB_Shoes", 1270102},
+				{"S_CD_FP_Earring", 1270115},
+				{"S_CD_FP_Pendant", 1270116},
+				{"S_CD_EP_Armor", 1270117},
+				{"S_CD_EP_Shoes", 1270118},
+				{"S_EM_DS_Earring", 1270119},
+				{"S_EM_DS_Pendant", 1270120},
+				{"S_EM_TP_Armor", 1270121},
+				{"S_EM_TP_Shoes", 1270122},
+				{"S_SS_KK_Earring", 1270123},
+				{"S_SS_KK_Pendant", 1270124},
+				{"S_SS_KF_Armor", 1270125},
+				{"S_SS_KF_Shoes", 1270126},
+				{"S_WH_WH_Earring", 1270130},
+				{"S_WH_WH_Pendant", 1270131},
+				{"S_WH_AT_Armor", 1270132},
+				{"S_WH_AT_Shoes", 1270133},
+				{"S_TR_MS_Earring", 1270134},
+				{"S_TR_MS_Pendant", 1270135},
+				{"S_TR_RB_Armor", 1270136},
+				{"S_TR_RB_Shoes", 1270137},
+				{"S_NW_MS_Earring", 1270138},
+				{"S_NW_MS_Pendant", 1270139},
+				{"S_NW_NF_Armor", 1270140},
+				{"S_NW_NF_Shoes", 1270141},
+				{"S_AT_APF_Armor", 1270175}, 
+				{"S_AT_APF_Shoes", 1270176}, 
+				{"S_AT_PSP_Earring", 1270177}, 
+				{"S_AT_PSP_Pendant", 1270178}, 
+				{"S_AT_SNO_Armor", 1270179}, 
+				{"S_AT_SNO_Shoes", 1270180}, 
+				{"S_AT_TPA_Earring", 1270181}, 
+				{"S_AT_TPA_Pendant", 1270182}, 
+				{"S_AT_Armor", 1270183}, 
+				{"S_AT_Shoes", 1270184}, 
+				{"S_AT_Earring", 1270185}, 
+				{"S_AT_Pendant", 1270186}
 			},
 			NeedSource_String = "Shadow Equipment"
 		},
@@ -5487,7 +5596,10 @@ tblLapineUpgradeBox = {
 				{"Noblesse_Attack_Boots", 470016},
 				{"Noblesse_Magic_Boots", 470017},
 				{"Noblesse_Attack_Manteau", 480012},
-				{"Noblesse_Magic_Manteau", 480014}
+				{"Noblesse_Magic_Manteau", 480014},
+				{"Noblesse_Sharpen_Suit", 450473},
+				{"Noblesse_Nature_Robe", 450474},
+				{"Noblesse_Slash_Suit", 450472}
 			},
 			NeedSource_String = "Noblesse Armors"
 		},
@@ -5537,7 +5649,10 @@ tblLapineUpgradeBox = {
 				{"Imperial_Attack_Boots", 470018},
 				{"Imperial_Magic_Boots", 470019},
 				{"Imperial_Attack_Manteau", 480016},
-				{"Imperial_Magic_Manteau", 480017}
+				{"Imperial_Magic_Manteau", 480017}, 
+				{"Imperial_Slash_Suit", 450475}, 
+				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
 		},
@@ -5587,7 +5702,10 @@ tblLapineUpgradeBox = {
 				{"Grace_Attack_Boots", 470020},
 				{"Grace_Magic_Boots", 470021},
 				{"Grace_Attack_Manteau", 480018},
-				{"Grace_Magic_Manteau", 480019}
+				{"Grace_Magic_Manteau", 480019}, 
+				{"Grace_Slash_Suit", 450478}, 
+				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
 		},
@@ -5657,7 +5775,10 @@ tblLapineUpgradeBox = {
 				{"Imperial_Knuckle_Suit", 450062},
 				{"Imperial_Tiger_Suit", 450063},
 				{"Imperial_Snovice_Suit", 450123},
-				{"Imperial_Snovice_Robe", 450124}
+				{"Imperial_Snovice_Robe", 450124}, 
+				{"Imperial_Slash_Suit", 450475}, 
+				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
 		},
@@ -5703,7 +5824,10 @@ tblLapineUpgradeBox = {
 				{"Imperial_Knuckle_Suit", 450062},
 				{"Imperial_Tiger_Suit", 450063},
 				{"Imperial_Snovice_Suit", 450123},
-				{"Imperial_Snovice_Robe", 450124}
+				{"Imperial_Snovice_Robe", 450124}, 
+				{"Imperial_Slash_Suit", 450475}, 
+				{"Imperial_Sharpen_Suit", 450476}, 
+				{"Imperial_Nature_Robe", 450477}
 			},
 			NeedSource_String = "Imperial Armors"
 		},
@@ -5773,7 +5897,10 @@ tblLapineUpgradeBox = {
 				{"Grace_Knuckle_Suit", 450096},
 				{"Grace_Tiger_Suit", 450097},
 				{"Grace_Snovice_Suit", 450125},
-				{"Grace_Snovice_Robe", 450126}
+				{"Grace_Snovice_Robe", 450126}, 
+				{"Grace_Slash_Suit", 450478}, 
+				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
 		},
@@ -5819,7 +5946,10 @@ tblLapineUpgradeBox = {
 				{"Grace_Knuckle_Suit", 450096},
 				{"Grace_Tiger_Suit", 450097},
 				{"Grace_Snovice_Suit", 450125},
-				{"Grace_Snovice_Robe", 450126}
+				{"Grace_Snovice_Robe", 450126}, 
+				{"Grace_Slash_Suit", 450478}, 
+				{"Grace_Sharpen_Suit", 450479}, 
+				{"Grace_Nature_Robe", 450480}
 			},
 			NeedSource_String = "Grace Armors"
 		},
@@ -5847,7 +5977,8 @@ tblLapineUpgradeBox = {
 				{"Ein_1HLUTE", 32110},
 				{"Ein_1HSWORD", 32352},
 				{"Ein_1HGUN", 32303},
-				{"Ein_1H_Foxtail", 550006}
+				{"Ein_1H_Foxtail", 550006},
+				{"Ein_AXE", 520046}
 			},
 			NeedSource_String = "Physical Modification Permit"
 		},
@@ -5875,7 +6006,8 @@ tblLapineUpgradeBox = {
 				{"Ein_1HLUTE", 32110},
 				{"Ein_1HSWORD", 32352},
 				{"Ein_1HGUN", 32303},
-				{"Ein_1H_Foxtail", 550006}
+				{"Ein_1H_Foxtail", 550006}, 
+				{"Ein_AXE", 520046}
 			},
 			NeedSource_String = "Magical Modification Permit"
 		},
@@ -5965,7 +6097,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Normal Automatic Improvement Device (Physical)"
 		},
@@ -6001,7 +6134,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Advanced Automatic Improvement Device (Physical)"
 		},
@@ -6037,7 +6171,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Premium Automatic Improvement Device (Physical)"
 		},
@@ -6073,7 +6208,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Normal Automatic Improvement Device (Magical)"
 		},
@@ -6109,7 +6245,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Advanced Automatic Improvement Device (Magical)"
 		},
@@ -6145,7 +6282,8 @@ tblLapineUpgradeBox = {
 				{"Ep172_1h_Rifle", 810000},
 				{"Ep172_1h_Shotgun", 820000},
 				{"Ep172_1h_Gatling", 830001},
-				{"Ep172_1h_Grenade", 840000}
+				{"Ep172_1h_Grenade", 840000},
+				{"Ep172_1h_Dagger3", 510186}
 			},
 			NeedSource_String = "Premium Automatic Improvement Device (Magical)"
 		},
@@ -6319,7 +6457,9 @@ tblLapineUpgradeBox = {
 				{"SP_B_Saber", 500042},
 				{"SI_B_Saber", 500043},
 				{"SN_B_Dagger", 510069},
-				{"SN_B_Wand", 550079}
+				{"SN_B_Wand", 550079}, 
+				{"SC_B_Axe", 620064},
+				{"NP_B_Dagger", 510200}
 			},
 			NeedSource_String = "Boosting Weapons"
 		},
@@ -6655,7 +6795,9 @@ tblLapineUpgradeBox = {
 				{"Glacier_Lance", 630018},
 				{"Glacier_B_Sword", 500050},
 				{"Glacier_Sword", 500049},
-				{"Glacier_T_Sword", 600027}
+				{"Glacier_T_Sword", 600027},
+				{"Glacier_N_Knife", 510190}, 
+				{"Glacier_N_Axe", 620056}
 			},
 			NeedSource_String = "Glacier Weapons"
 		},

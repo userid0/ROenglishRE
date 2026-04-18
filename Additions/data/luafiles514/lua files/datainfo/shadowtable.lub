@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20260322
 
 ShadowFactorTable = {
 	[jobtbl.JT_WARPNPC] = 0,
@@ -1301,5 +1301,15 @@ ShadowFactorTable = {
 	[jobtbl.JT_CH1_IMMORTAL_OFFICER2] = 1.5,
 	[jobtbl.JT_CH1_MD_AMDARAIS] = 3,
 	[jobtbl.JT_CH1_NYAISE] = 0.7,
-	[jobtbl.JT_CH1_PEEPING] = 0.7
+	[jobtbl.JT_CH1_PEEPING] = 0.7,
+	[JTtbl.JT_DRUID] = 1,
+	[JTtbl.JT_KARNOS] = 1,
+	[JTtbl.JT_ALITEA] = 1,
+	[JTtbl.JT_WEREWOLF] = 1.5,
+	[JTtbl.JT_WERERAPTOR] = 1.3,
+	[JTtbl.JT_DRUID_B] = 0.82,
+	[JTtbl.JT_KARNOS_B] = 0.82,
+	[JTtbl.JT_DRUID_RIDING] = 2,
+	[JTtbl.JT_KARNOS_RIDING] = 2,
+	[JTtbl.JT_ALITEA_RIDING] = 2
 }

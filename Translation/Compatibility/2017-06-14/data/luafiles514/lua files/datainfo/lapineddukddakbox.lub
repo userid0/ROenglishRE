@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20260322
 
 tblLapineDdukddakBox = {
 	sources = {
@@ -606,7 +606,19 @@ tblLapineDdukddakBox = {
 				{"Crystal_Of_Pollution", 100, 1001200}
 			},
 			NeedSource_String = "Craft Muqaddas Equipment"
-		}, 
+		},
+		Mocadas_Slabs24 = {
+			ItemID = 105211,
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			NeedRefineMax = 0,
+			SourceItems = {
+				{"Mocadas_Gold", 100, 1001201},
+				{"Mocadas_Water", 100, 1001202},
+				{"Crystal_Of_Pollution", 100, 1001200}
+			},
+			NeedSource_String = "Craft Muqaddas Equipment"
+		},
 		D_Gw_Extractor = {
 			ItemID = 101639,
 			NeedCount = 3,
@@ -638,7 +650,9 @@ tblLapineDdukddakBox = {
 				{"D_Glacier_Rifle", 1, 810015},
 				{"D_Glacier_Shotgun", 1, 820011},
 				{"D_Glacier_Gatling", 1, 830015},
-				{"D_Glacier_Launcher", 1, 840010}
+				{"D_Glacier_Launcher", 1, 840010},
+				{"D_Glacier_N_Axe", 1, 620057},
+				{"D_Glacier_N_Knife", 1, 510191}
 			},
 			NeedSource_String = "Dim Glacier Weapon"
 		},
@@ -4795,7 +4809,10 @@ tblLapineDdukddakBox = {
 				{"Ice_F_Stone_Soul", 1, 1000753},
 				{"Ice_F_Stone_M_Heal", 1, 1000754},
 				{"Ice_F_Stone_M_Soul", 1, 1000755},
-				{"Ice_F_Stone_A_Force", 1, 1000756}
+				{"Ice_F_Stone_A_Force", 1, 1000756},
+				{"Ice_F_Stone_Skill_55", 1, 1002350},
+				{"Ice_F_Stone_Skill_56", 1, 1002351},
+				{"Ice_F_Stone_Skill_57", 1, 1002352}
 			},
 			NeedSource_String = "Ice Flower Magic Stone"
 		}, 

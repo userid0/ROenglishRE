@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240127
+-- Last updated: 20260322
 
 StylingShop.AddHeadPalette(1, { zeny = 100000 }, true)
 StylingShop.AddHeadPalette(2, { zeny = 100000 }, true)
@@ -54,6 +54,9 @@ StylingShop.AddHeadStyle(39, { zeny = 3000000 })
 StylingShop.AddHeadStyle(40, { zeny = 3000000 })
 StylingShop.AddHeadStyle(41, { zeny = 3000000 })
 StylingShop.AddHeadStyle(42, { zeny = 3000000 })
+StylingShop.AddHeadStyle(43, { zeny = 3000000 })
+StylingShop.AddHeadStyle(44, { zeny = 3000000 })
+StylingShop.AddHeadStyle(45, { zeny = 3000000 })
 StylingShop.AddBodyPalette(0, { itid = 6047, boxitid = 16855 })
 StylingShop.AddBodyPalette(2, { itid = 6046, boxitid = 16854 })
 StylingShop.AddBodyPalette(3, { itid = 6046, boxitid = 16854 })
@@ -222,3 +225,5 @@ StylingShop.AddCostumeChange(128, 4307, 4307, { zeny = 0 })
 StylingShop.AddCostumeChange(129, 4307, 4190, { itid = 6959, boxitid = 6959 })
 StylingShop.AddCostumeChange(130, 4308, 4308, { zeny = 0 })
 StylingShop.AddCostumeChange(131, 4308, 4218, { itid = 6959, boxitid = 6959 })
+StylingShop.AddCostumeChange(132, 4355, 4355, { zeny = 0 })
+StylingShop.AddCostumeChange(133, 4355, 4353, { itid = 6959, boxitid = 6959 })

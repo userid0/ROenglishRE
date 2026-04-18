@@ -2,13 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- This file only works if used in combination with the `Custom Lua Support`
--- Last updated: 20241005
-
-require('SystemEN/LuaFiles514/rotp_f')
-dofile("SystemEN/OngoingQuests_C.lub")
-dofile("SystemEN/RecommendedQuests_C.lub")
--------------------------------------------------
+-- Last updated: 20260304
 
 function GetOngoingQuestInfoByID(questID)
 	if QuestInfoList[questID] ~= nil then
@@ -125,3 +119,9 @@ function GetOngoingSimpleView(in_questID)
 	end
 	return true
 end
+
+----------- DON'T TOUCH THESE LINES -------------
+require('SystemEN/LuaFiles514/rotp_f')
+dofile("SystemEN/OngoingQuests_C.lub")
+dofile("SystemEN/RecommendedQuests_C.lub")
+-------------------------------------------------

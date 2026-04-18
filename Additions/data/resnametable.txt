@@ -1,6 +1,32 @@
 // ==========================================================================
-// resnametable.txt - Main Server, Last Modified: 2025-08-13 - Fantasy Series Fielding
+// resnametable.txt - Main Server, Last Modified: 2026-01-29 - Eagle Five Collaboration
 // ==========================================================================
+// Science Ninja Team Gatchaman, Eagle Five Collaboration
+1@gat.gnd#in_sphinx4.gnd#
+1@gat.gat#in_sphinx4.gat#
+1@gat.rsw#in_sphinx4.rsw#
+유저인터페이스\map\1@gat.bmp#유저인터페이스\map\in_sphinx4.bmp#
+
+// Druid
+1@krns.gnd#1@krns.gnd#
+1@krns.gat#1@krns.gat#
+1@krns.rsw#1@krns.rsw#
+유저인터페이스\map\1@krns.bmp#유저인터페이스\map\1@krns.bmp#
+1@alta.gnd#1@alta.gnd#
+1@alta.gat#1@alta.gat#
+1@alta.rsw#1@alta.rsw#
+유저인터페이스\map\1@alta.bmp#유저인터페이스\map\1@alta.bmp#
+
+// Prontera Training Ground Renewal
+tra_fild01.gnd#tra_fild02.gnd#
+tra_fild01.gat#tra_fild02.gat#
+tra_fild01.rsw#tra_fild02.rsw#
+유저인터페이스\map\tra_fild01.bmp#유저인터페이스\map\tra_fild02.bmp#
+tra_fild03.gnd#tra_fild02.gnd#
+tra_fild03.gat#tra_fild02.gat#
+tra_fild03.rsw#tra_fild02.rsw#
+유저인터페이스\map\tra_fild03.bmp#유저인터페이스\map\tra_fild02.bmp#
+
 // Fantasy Series Fielding
 vr_cas.gnd#1@vrcas.gnd#
 vr_cas.gat#1@vrcas.gat#

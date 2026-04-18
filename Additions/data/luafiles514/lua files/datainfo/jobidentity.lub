@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240831
+-- Last updated: 20260322
 
 JTtbl = {
 	JT_NOVICE = 0,
@@ -33,7 +33,7 @@ JTtbl = {
 	JT_NINJA = 25,
 	JT_SANTA = 26,
 	JT_SUMMER = 27,
-	-- 28-31 are non kRO entries, in kRo JT_USER_LAST is 28 currently (2021-11)
+	-- 28-31 are non kRO entries, in kRo JT_USER_LAST is 28 currently (2026-03)
 	JT_HANBOK = 28,
 	JT_OKTOBERFEST = 29,
 	JT_SUMMER2 = 30,
@@ -3263,9 +3263,8 @@ JTtbl = {
 	JT_MH_BACSOJIN = 3274,
 	JT_MH_HUNTER_FLY1 = 3275,
 	JT_MH_DIMIK = 3276,
-	JT_MH_DIMIK_2 = 3277,
-	JT_MH_DIMIK_4 = 3278,
 	JT_MH_DIMIK_2 = 3279,
+	JT_MH_DIMIK_4 = 3278,
 	JT_MH_DIMIK_3 = 3280,
 	JT_MH_COELACANTH_H_A1 = 3281,
 	JT_MH_COELACANTH_H_A2 = 3282,
@@ -3820,7 +3819,17 @@ JTtbl = {
 	JT_SPIRIT_HANDLER_RIDING = 4315,
 	JT_SKY_EMPEROR2 = 4316,
 	JT_UPPER_EXTENDED_JOB2_END = 4330,
-	JT_2004_JOB_LAST = 4331,
+	JT_DRUID = 4351,
+	JT_DRUID_B = 4352,
+	JT_KARNOS = 4353,
+	JT_KARNOS_B = 4354,
+	JT_ALITEA = 4355,
+	JT_WEREWOLF = 4356,
+	JT_WERERAPTOR = 4357,
+	JT_DRUID_RIDING = 4358,
+	JT_KARNOS_RIDING = 4359,
+	JT_ALITEA_RIDING = 4360,
+	JT_2004_JOB_LAST = 4361,
 	JT_MER_BEGIN = 6000,
 	JT_MER_LIF = 6001,
 	JT_MER_AMISTR = 6002,

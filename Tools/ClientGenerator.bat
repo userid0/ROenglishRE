@@ -52,6 +52,9 @@ echo [21] 2024-05-02
 echo [22] 2024-08-07
 echo [23] 2024-10-16
 echo [24] 2025-01-22
+echo [25] 2025-06-18
+echo [26] 2025-09-02
+echo [27] 2025-12-17
 echo =================================================================
 set /p cdate="Please select the Client Date: "
 
@@ -79,6 +82,9 @@ if %cdate%==21 set client=2024-05-02
 if %cdate%==22 set client=2024-08-07
 if %cdate%==23 set client=2024-10-16
 if %cdate%==24 set client=2025-01-22
+if %cdate%==25 set client=2025-06-18
+if %cdate%==26 set client=2025-09-02
+if %cdate%==27 set client=2025-12-17
 
 if "%client%"=="" exit
 
@@ -123,6 +129,9 @@ if !x! LEQ %cdate% (
     if !x! EQU 22 call :CopyFD 2024-05-02 %type%
     if !x! EQU 23 call :CopyFD 2024-08-07 %type%
     if !x! EQU 24 call :CopyFD 2024-10-16 %type%
+    if !x! EQU 25 call :CopyFD 2025-01-22 %type%
+    if !x! EQU 26 call :CopyFD 2025-06-18 %type%
+    if !x! EQU 27 call :CopyFD 2025-09-02 %type%
 
     set /a x+=1
     goto DateLoop
@@ -136,6 +145,10 @@ if exist "..\Translation\Compatibility\%client%\%type%\" (
 
 if %cdate% GEQ 19 (
     if exist ".\Client\data\luafiles514\lua files\hateffectinfo\" rmdir /S /Q ".\Client\data\luafiles514\lua files\hateffectinfo\"
+)
+
+if %cdate% GEQ 25 (
+    if exist ".\Client\data\luafiles514\lua files\selectpackage\selectpackageitem.lub" del /S /Q ".\Client\data\luafiles514\lua files\selectpackage\selectpackageitem.lub"
 )
 
 :EOF

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260131
+-- Last updated: 20260322
 
 SKILL_INFO_LIST = {
 	[SKID.NPC_TARGET_MARKER] = {
@@ -17129,6 +17129,899 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{ SKID.SH_MYSTICAL_CREATURE_MASTERY, 7 },
 			{ SKID.SH_HYUN_ROKS_BREEZE, 5 }
+		}
+	},
+	[SKID.DR_TRUTH_OF_WIND] = {
+		"DR_TRUTH_OF_WIND",
+		SkillName = "Truth of Wind",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.DR_NATURE_LOGIC, 1 }
+		}
+	},
+	[SKID.DR_TRUTH_OF_ICE] = {
+		"DR_TRUTH_OF_ICE",
+		SkillName = "Truth of Ice",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.DR_NATURE_LOGIC, 1 }
+		}
+	},
+	[SKID.DR_TRUTH_OF_EARTH] = {
+		"DR_TRUTH_OF_EARTH",
+		SkillName = "Truth of Earth",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.DR_NATURE_LOGIC, 1 }
+		}
+	},
+	[SKID.DR_ICE_TOTEM] = {
+		"DR_ICE_TOTEM",
+		SkillName = "Ice Totem",
+		MaxLv = 10,
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {}
+	},
+	[SKID.DR_ICE_CLOUD] = {
+		"DR_ICE_CLOUD",
+		SkillName = "Ice Cloud",
+		MaxLv = 10,
+		SpAmount = { 32, 34, 36, 38, 40, 42, 44, 46, 48, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.DR_ICE_TOTEM, 5 }
+		}
+	},
+	[SKID.DR_CUTTING_WIND] = {
+		"DR_CUTTING_WIND",
+		SkillName = "Cutting Wind",
+		MaxLv = 10,
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {}
+	},
+	[SKID.DR_WIND_BOMB] = {
+		"DR_WIND_BOMB",
+		SkillName = "Wind Bomb",
+		MaxLv = 10,
+		SpAmount = { 32, 34, 36, 38, 40, 42, 44, 46, 48, 50 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.DR_CUTTING_WIND, 5 }
+		}
+	},
+	[SKID.DR_EARTH_FLOWER] = {
+		"DR_EARTH_FLOWER",
+		SkillName = "Earth Flower",
+		MaxLv = 10,
+		SpAmount = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {}
+	},
+	[SKID.DR_AROUND_FLOWER] = {
+		"DR_AROUND_FLOWER",
+		SkillName = "Around Flower",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.DR_EARTH_FLOWER, 5 }
+		}
+	},
+	[SKID.DR_NATURE_LOGIC] = {
+		"DR_NATURE_LOGIC",
+		SkillName = "Nature Logic",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.DR_NATURE_SHIELD] = {
+		"DR_NATURE_SHIELD",
+		SkillName = "Nature Shield",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.DR_WEREWOLF] = {
+		"DR_WEREWOLF",
+		SkillName = "Transformation: Werewolf",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.DR_ENRAGE_WOLF] = {
+		"DR_ENRAGE_WOLF",
+		SkillName = "Enrage Wolf",
+		MaxLv = 5,
+		SpAmount = { 60, 70, 80, 90, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_BLOOD_HOWLING, 3 }
+		}
+	},
+	[SKID.DR_NOMERCY_CLAW] = {
+		"DR_NOMERCY_CLAW",
+		SkillName = "No Mercy Claw",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_WEREWOLF, 1 }
+		}
+	},
+	[SKID.DR_CRUEL_BITE] = {
+		"DR_CRUEL_BITE",
+		SkillName = "Cruel Bite",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_NOMERCY_CLAW, 3 }
+		}
+	},
+	[SKID.DR_HUNGER] = {
+		"DR_HUNGER",
+		SkillName = "Hunger",
+		MaxLv = 10,
+		SpAmount = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
+		bSeperateLv = false,
+		AttackRange = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.DR_CRUEL_BITE, 3 }
+		}
+	},
+	[SKID.DR_BLOOD_HOWLING] = {
+		"DR_BLOOD_HOWLING",
+		SkillName = "Blood Howling",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_WEREWOLF, 1 }
+		}
+	},
+	[SKID.DR_BEASTY_NOSE] = {
+		"DR_BEASTY_NOSE",
+		SkillName = "Beasty Nose",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.DR_WERERAPTOR] = {
+		"DR_WERERAPTOR",
+		SkillName = "Transformation: Wereraptor",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.DR_ENRAGE_RAPTOR] = {
+		"DR_ENRAGE_RAPTOR",
+		SkillName = "Enrage Raptor",
+		MaxLv = 5,
+		SpAmount = { 60, 70, 80, 90, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_PREENING, 3 }
+		}
+	},
+	[SKID.DR_SHOOTING_FEATHER] = {
+		"DR_SHOOTING_FEATHER",
+		SkillName = "Shooting Feather",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_WERERAPTOR, 1 }
+		}
+	},
+	[SKID.DR_FLICKING_TONADO] = {
+		"DR_FLICKING_TONADO",
+		SkillName = "Flicking Tornado",
+		MaxLv = 10,
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.DR_LOW_FLIGHT, 3 }
+		}
+	},
+	[SKID.DR_LOW_FLIGHT] = {
+		"DR_LOW_FLIGHT",
+		SkillName = "Low Flight",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_SHOOTING_FEATHER, 3 }
+		}
+	},
+	[SKID.DR_PREENING] = {
+		"DR_PREENING",
+		SkillName = "Preening",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_WERERAPTOR, 1 }
+		}
+	},
+	[SKID.DR_SHARPE_EYES] = {
+		"DR_SHARPE_EYES",
+		SkillName = "Sharp Eyes",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+	},
+	[SKID.KR_DOUBLE_SLASH] = {
+		"KR_DOUBLE_SLASH",
+		SkillName = "Double Slash",
+		MaxLv = 10,
+		SpAmount = { 35, 38, 41, 43, 45, 47, 49, 51, 53, 55 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_NASTY_SLASH] = {
+		"KR_NASTY_SLASH",
+		SkillName = "Nasty Slash",
+		MaxLv = 5,
+		SpAmount = { 30, 33, 36, 38, 40 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.KR_DOUBLE_SLASH, 3 }
+		}
+	},
+	[SKID.KR_CLAW_WAVE] = {
+		"KR_CLAW_WAVE",
+		SkillName = "Claw Wave",
+		MaxLv = 10,
+		SpAmount = { 50, 52, 54, 56, 58, 60, 62, 64, 67, 70 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_NASTY_SLASH, 3 }
+		}
+	},
+	[SKID.KR_CHOP_CHOP] = {
+		"KR_CHOP_CHOP",
+		SkillName = "Chop Chop",
+		MaxLv = 10,
+		SpAmount = { 8, 8, 8, 9, 9, 9, 9, 10, 10, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.KR_DOUBLE_SLASH, 5 },
+			{ SKID.KR_CLAW_WAVE, 5 }
+		}
+	},
+	[SKID.KR_IRON_HOWLING] = {
+		"KR_IRON_HOWLING",
+		SkillName = "Iron Howling",
+		MaxLv = 5,
+		SpAmount = { 65, 69, 73, 77, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_BLOOD_HOWLING, 3 }
+		}
+	},
+	[SKID.KR_WOLF_INSTINCT] = {
+		"KR_WOLF_INSTINCT",
+		SkillName = "Wolf Instinct",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.KR_CLAW_WAVE, 3 },
+			{ SKID.KR_IRON_HOWLING, 3 }
+		}
+	},
+	[SKID.KR_SHARPEN_GUST] = {
+		"KR_SHARPEN_GUST",
+		SkillName = "Sharpen Gust",
+		MaxLv = 10,
+		SpAmount = { 42, 44, 46, 48, 50, 52, 54, 56, 58, 60 },
+		bSeperateLv = true,
+		AttackRange = { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_SHARPEN_HAIL] = {
+		"KR_SHARPEN_HAIL",
+		SkillName = "Sharpen Hail",
+		MaxLv = 10,
+		SpAmount = { 55, 59, 63, 67, 71, 75, 79, 83, 87, 90 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_SHARPEN_GUST, 5 }
+		}
+	},
+	[SKID.KR_FEATHER_SPRINKLE] = {
+		"KR_FEATHER_SPRINKLE",
+		SkillName = "Feather Sprinkle",
+		MaxLv = 5,
+		SpAmount = { 35, 38, 41, 43, 45 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_SHOOTING_FEATHER, 5 },
+			{ SKID.KR_SHARPEN_HAIL, 3 }
+		}
+	},
+	[SKID.KR_TYPHOON_WING] = {
+		"KR_TYPHOON_WING",
+		SkillName = "Typhoon Wing",
+		MaxLv = 10,
+		SpAmount = { 30, 33, 36, 39, 42, 45, 48, 52, 56, 60 },
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5, 5, 5, 6, 6, 6 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_WIND_VEIL] = {
+		"KR_WIND_VEIL",
+		SkillName = "Wind Veil",
+		MaxLv = 5,
+		SpAmount = { 65, 69, 73, 77, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.KR_TYPHOON_WING, 3 }
+		}
+	},
+	[SKID.KR_RAPTORIAL_INSTINCT] = {
+		"KR_RAPTORIAL_INSTINCT",
+		SkillName = "Raptorial Instinct",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.KR_FEATHER_SPRINKLE, 3 },
+			{ SKID.KR_TYPHOON_WING, 3 }
+		}
+	},
+	[SKID.KR_ICE_PILLAR] = {
+		"KR_ICE_PILLAR",
+		SkillName = "Ice Pillar",
+		MaxLv = 10,
+		SpAmount = { 40, 44, 48, 52, 55, 58, 61, 64, 67, 70 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_ICE_TOTEM, 5 }
+		}
+	},
+	[SKID.KR_ICE_SPLASH] = {
+		"KR_ICE_SPLASH",
+		SkillName = "Ice Splash",
+		MaxLv = 10,
+		SpAmount = { 30, 32, 34, 36, 38, 40, 42, 44, 47, 50 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_ICE_CLOUD, 5 }
+		}
+	},
+	[SKID.KR_THUNDERING_FOCUS] = {
+		"KR_THUNDERING_FOCUS",
+		SkillName = "Thundering Focus",
+		MaxLv = 10,
+		SpAmount = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_THUNDERING_FOCUS_S] = {
+		"KR_THUNDERING_FOCUS",
+		SkillName = "Enhanced Thundering Focus",
+		MaxLv = 10,
+		SpAmount = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_THUNDERING_ORB] = {
+		"KR_THUNDERING_ORB",
+		SkillName = "Thundering Orb",
+		MaxLv = 10,
+		SpAmount = { 45, 47, 49, 51, 53, 55, 57, 59, 62, 65 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.DR_WIND_BOMB, 5 },
+			{ SKID.KR_THUNDERING_FOCUS, 1 }
+		}
+	},
+	[SKID.KR_THUNDERING_ORB_S] = {
+		"KR_THUNDERING_ORB",
+		SkillName = "Enhanced Thundering Orb",
+		MaxLv = 10,
+		SpAmount = { 45, 47, 49, 51, 53, 55, 57, 59, 62, 65 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_THUNDERING_CALL] = {
+		"KR_THUNDERING_CALL",
+		SkillName = "Thundering Call",
+		MaxLv = 10,
+		SpAmount = { 53, 56, 59, 62, 65, 68, 71, 74, 77, 80 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_THUNDERING_FOCUS, 5 },
+			{ SKID.KR_THUNDERING_ORB, 5 }
+		}
+	},
+	[SKID.KR_THUNDERING_CALL_S] = {
+		"KR_THUNDERING_CALL",
+		SkillName = "Enhanced Thundering Call",
+		MaxLv = 10,
+		SpAmount = { 53, 56, 59, 62, 65, 68, 71, 74, 77, 80 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_EARTH_DRILL] = {
+		"KR_EARTH_DRILL",
+		SkillName = "Earth Drill",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_EARTH_BUD, 1 }
+		}
+	},
+	[SKID.KR_EARTH_STAMP] = {
+		"KR_EARTH_STAMP",
+		SkillName = "Earth Stamp",
+		MaxLv = 10,
+		SpAmount = { 33, 35, 37, 39, 41, 43, 45, 47, 49, 51 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_EARTH_DRILL, 5 }
+		}
+	},
+	[SKID.KR_EARTH_BUD] = {
+		"KR_EARTH_BUD",
+		SkillName = "Earth Bud",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_AROUND_FLOWER, 5 }
+		}
+	},
+	[SKID.KR_NATURE_VIGOUR] = {
+		"KR_NATURE_VIGOUR",
+		SkillName = "Nature Vigour",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.KR_NATURE_PROTECTION] = {
+		"KR_NATURE_PROTECTION",
+		SkillName = "Nature Protection",
+		MaxLv = 5,
+		SpAmount = { 30, 35, 40, 45, 50 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_NATURE_SHIELD, 5 },
+			{ SKID.DR_NATURE_LOGIC, 3 },
+			{ SKID.KR_NATURE_VIGOUR, 3 }
+		}
+	},
+	[SKID.KR_GROUND_BLOOM] = {
+		"KR_GROUND_BLOOM",
+		SkillName = "Ground Bloom",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.AT_GRAVITY_HOLE] = {
+		"AT_GRAVITY_HOLE",
+		SkillName = "Gravity Hole",
+		MaxLv = 5,
+		SpAmount = { 110, 120, 130, 140, 150 },
+		ApAmount = { 40, 38, 36, 33, 30 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_NATURE_HARMONY, 5 }
+		}
+	},
+	[SKID.AT_NATURE_AID] = {
+		"AT_NATURE_AID",
+		SkillName = "Nature Aid",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.AT_NATURE_HARMONY] = {
+		"AT_NATURE_HARMONY",
+		SkillName = "Nature Harmony",
+		MaxLv = 5,
+		SpAmount = { 90, 92, 94, 97, 100 },
+		ApAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.DR_TRUTH_OF_ICE, 1 },
+			{ SKID.DR_TRUTH_OF_WIND, 1 },
+			{ SKID.DR_TRUTH_OF_EARTH, 1 }
+		}
+	},
+	[SKID.AT_GLACIER_MONOLITH] = {
+		"AT_GLACIER_MONOLITH",
+		SkillName = "Glacial Monolith",
+		MaxLv = 10,
+		SpAmount = { 105, 107, 109, 111, 114, 117, 120, 123, 126, 130 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_ICE_PILLAR, 5 }
+		}
+	},
+	[SKID.AT_GLACIER_NOVA] = {
+		"AT_GLACIER_MONOLITH",
+		SkillName = "Glacial Nova",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.AT_GLACIER_SHARD] = {
+		"AT_GLACIER_SHARD",
+		SkillName = "Glacial Shard",
+		MaxLv = 10,
+		SpAmount = { 70, 72, 74, 77, 80, 83, 86, 89, 92, 95 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_GLACIER_MONOLITH, 3 }
+		}
+	},
+	[SKID.AT_GLACIER_STOMP] = {
+		"AT_GLACIER_STOMP",
+		SkillName = "Glacial Stomp",
+		MaxLv = 5,
+		SpAmount = { 80, 82, 84, 87, 90 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_GLACIER_SHARD, 5 }
+		}
+	},
+	[SKID.AT_CHILLING_BLAST] = {
+		"AT_CHILLING_BLAST",
+		SkillName = "Chilling Blast",
+		MaxLv = 5,
+		SpAmount = { 110, 112, 114, 117, 120 },
+		ApAmount = { 15, 14, 13, 12, 10 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_GLACIER_MONOLITH, 5 },
+			{ SKID.AT_GLACIER_STOMP, 5 }
+		}
+	},
+	[SKID.AT_ROARING_CHARGE] = {
+		"AT_ROARING_CHARGE",
+		SkillName = "Roaring Charge",
+		MaxLv = 5,
+		SpAmount = { 80, 85, 90, 95, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.KR_THUNDERING_FOCUS, 5 }
+		}
+	},
+	[SKID.AT_ROARING_CHARGE_S] = {
+		"AT_ROARING_CHARGE",
+		SkillName = "Enhanced Roaring Charge",
+		MaxLv = 5,
+		SpAmount = { 80, 85, 90, 95, 100 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.AT_ROARING_PIERCER] = {
+		"AT_ROARING_PIERCER",
+		SkillName = "Roaring Piercer",
+		MaxLv = 10,
+		SpAmount = { 100, 101, 102, 104, 106, 108, 111, 114, 117, 120 },
+		bSeperateLv = true,
+		AttackRange = { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 },
+		_NeedSkillList = {
+			{ SKID.AT_ROARING_CHARGE, 3 }
+		}
+	},
+	[SKID.AT_ROARING_PIERCER_S] = {
+		"AT_ROARING_PIERCER",
+		SkillName = "Enhanced Roaring Piercer",
+		MaxLv = 10,
+		SpAmount = { 100, 101, 102, 104, 106, 108, 111, 114, 117, 120 },
+		bSeperateLv = true,
+		AttackRange = { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 },
+		_NeedSkillList = {
+			{ SKID.AT_ROARING_CHARGE, 3 }
+		}
+	},
+	[SKID.AT_FURIOS_STORM] = {
+		"AT_FURIOS_STORM",
+		SkillName = "Furious Storm",
+		MaxLv = 5,
+		SpAmount = { 85, 89, 93, 97, 100 },
+		ApAmount = { 20, 19, 18, 17, 15 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_ROARING_CHARGE, 5 },
+			{ SKID.AT_ROARING_PIERCER, 5 },
+			{ SKID.KR_THUNDERING_CALL, 5 }
+		}
+	},
+	[SKID.AT_TERRA_HARVEST] = {
+		"AT_TERRA_HARVEST",
+		SkillName = "Terra Harvest",
+		MaxLv = 10,
+		SpAmount = { 80, 81, 82, 84, 86, 88, 91, 94, 97, 100 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.KR_EARTH_BUD, 5 }
+		}
+	},
+	[SKID.AT_TERRA_WAVE] = {
+		"AT_TERRA_WAVE",
+		SkillName = "Terra Wave",
+		MaxLv = 10,
+		SpAmount = { 90, 94, 98, 102, 105, 108, 111, 114, 117, 120 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.AT_TERRA_HARVEST, 5 }
+		}
+	},
+	[SKID.AT_SOLID_STOMP] = {
+		"AT_SOLID_STOMP",
+		SkillName = "Solid Stomp",
+		MaxLv = 5,
+		SpAmount = { 110, 112, 114, 117, 120 },
+		ApAmount = { 20, 19, 18, 17, 15 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_TERRA_HARVEST, 5 },
+			{ SKID.AT_TERRA_WAVE, 5 }
+		}
+	},
+	[SKID.AT_SIXTH_SENSE] = {
+		"AT_SIXTH_SENSE",
+		SkillName = "Sixth Sense",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		IsPassive = true,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.AT_PULSE_OF_MADNESS] = {
+		"AT_PULSE_OF_MADNESS",
+		SkillName = "Pulse of Madness",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_SIXTH_SENSE, 1 }
+		}
+	},
+	[SKID.AT_ALPHA_PHASE] = {
+		"AT_ALPHA_PHASE",
+		SkillName = "Alpha Phase",
+		MaxLv = 5,
+		SpAmount = { 60, 70, 80, 90, 100 },
+		ApAmount = { 130, 130, 130, 130, 130 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_PULSE_OF_MADNESS, 3 }
+		}
+	},
+	[SKID.AT_PRIMAL_CLAW] = {
+		"AT_PRIMAL_CLAW",
+		SkillName = "Primal Claw",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 5, 5, 5, 5, 5 },
+		_NeedSkillList = {
+			{ SKID.AT_SIXTH_SENSE, 3 }
+		}
+	},
+	[SKID.AT_FERAL_CLAW] = {
+		"AT_FERAL_CLAW",
+		SkillName = "Feral Claw",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.AT_PRIMAL_CLAW, 3 }
+		}
+	},
+	[SKID.AT_ALPHA_CLAW] = {
+		"AT_ALPHA_CLAW",
+		SkillName = "Alpha Claw",
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.AT_FERAL_CLAW, 3 }
+		}
+	},
+	[SKID.AT_SAVAGE_LUNGE] = {
+		"AT_SAVAGE_LUNGE",
+		SkillName = "Savage Lunge",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		ApAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.AT_ALPHA_PHASE, 3 }
+		}
+	},
+	[SKID.AT_FRENZY_FANG] = {
+		"AT_FRENZY_FANG",
+		SkillName = "Frenzy Fang",
+		MaxLv = 5,
+		SpAmount = { 24, 28, 32, 36, 40 },
+		bSeperateLv = true,
+		AttackRange = { 3, 3, 3, 3, 3 },
+		_NeedSkillList = {
+			{ SKID.AT_ALPHA_CLAW, 3 }
+		}
+	},
+	[SKID.AT_FLIP_FLAP] = {
+		"AT_FLIP_FLAP",
+		SkillName = "Flip Flap",
+		MaxLv = 5,
+		SpAmount = { 20, 30, 40, 50, 60 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_SIXTH_SENSE, 1 }
+		}
+	},
+	[SKID.AT_APEX_PHASE] = {
+		"AT_APEX_PHASE",
+		SkillName = "Apex Phase",
+		MaxLv = 5,
+		SpAmount = { 60, 70, 80, 90, 100 },
+		ApAmount = { 130, 130, 130, 130, 130 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AT_FLIP_FLAP, 3 }
+		}
+	},
+	[SKID.AT_PINION_SHOT] = {
+		"AT_PINION_SHOT",
+		SkillName = "Pinion Shot",
+		MaxLv = 10,
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_SIXTH_SENSE, 3 }
+		}
+	},
+	[SKID.AT_ZEPHYR_LINK] = {
+		"AT_ZEPHYR_LINK",
+		SkillName = "Zephyr Link",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = true,
+		AttackRange = { 1 }
+	},
+	[SKID.AT_QUILL_SPEAR] = {
+		"AT_QUILL_SPEAR",
+		SkillName = "Quill Spear",
+		MaxLv = 10,
+		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_PINION_SHOT, 3 }
+		}
+	},
+	[SKID.AT_QUILL_SPEAR_S] = {
+		"AT_QUILL_SPEAR_S",
+		SkillName = "Quill Spear",
+		MaxLv = 10,
+		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_PINION_SHOT, 3 }
+		}
+	},
+	[SKID.AT_TEMPEST_FLAP] = {
+		"AT_TEMPEST_FLAP",
+		SkillName = "Tempest Flap",
+		MaxLv = 10,
+		SpAmount = { 32, 34, 36, 38, 40, 42, 44, 46, 48, 50 },
+		ApAmount = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_QUILL_SPEAR, 3 }
+		}
+	},
+	[SKID.AT_AERO_SYNC] = {
+		"AT_AERO_SYNC",
+		SkillName = "Aero Sync",
+		MaxLv = 5,
+		SpAmount = { 42, 44, 46, 48, 50 },
+		ApAmount = { 30, 30, 30, 30, 30 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.AT_FLIP_FLAP, 3 }
 		}
 	}
 }

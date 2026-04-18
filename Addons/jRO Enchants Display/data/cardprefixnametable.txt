@@ -1413,6 +1413,20 @@
 300665#of Abyss Knight#
 300666#of the Buddha#
 300667#of Gluto#
+300715#Support#
+300716#Strategic#
+300717#Tatio#
+300718#Rekenber#
+300719#As#
+300720#Kaya Toss#
+300721#of Tatio#
+300722#of Rekenber#
+// Druid Items
+300683#Howell#
+// Gatchaman Collaboration
+300732#Fly up!!#
+300733#I'll destroy you!!#
+300734#Firing!#
 
 // End of kRO Cards
 4495#of Half Protection#

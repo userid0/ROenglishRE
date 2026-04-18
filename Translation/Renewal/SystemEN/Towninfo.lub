@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250416
+-- Last updated: 20260322
 
 -- type 0 = Tool Dealer
 -- type 1 = Weapon Dealer
@@ -286,10 +286,10 @@ mapNPCInfoTable = {
 	},
 -- ---------------------------------------------------------------------------- 
 	niflheim = {
-	       { name = [=[Kafra Employee]=], X = 202, Y = 180, TYPE = 6 },
-	       { name = [=[Guide]=], X = 201, Y = 187, TYPE = 4 },
-	       { name = [=[Tool Dealer]=], X = 217, Y = 196, TYPE = 0 },
-	       { name = [=[Weapon Dealer]=], X = 216, Y = 171, TYPE = 1 }
+		{ name = [=[Kafra Employee]=], X = 202, Y = 180, TYPE = 6 },
+		{ name = [=[Guide]=], X = 201, Y = 187, TYPE = 4 },
+		{ name = [=[Tool Dealer]=], X = 217, Y = 196, TYPE = 0 },
+		{ name = [=[Weapon Dealer]=], X = 216, Y = 171, TYPE = 1 }
 	},
 -- ---------------------------------------------------------------------------- 
 	izlu2dun = {
@@ -440,6 +440,29 @@ mapNPCInfoTable = {
 	ygg_edge = {
 		{ name = [=[Fruit Shop]=], X = 141, Y = 209, TYPE = 0 },
 		{ name = [=[Guide]=], X = 167, Y = 182, TYPE = 4 }
+	},
+	tra_fild01 = {
+		{ name = [=[Warehouse]=], X = 204, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 15, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 113, Y = 32, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 111, Y = 100, TYPE = 6 }
+	},
+	tra_fild02 = {
+		{ name = [=[Warehouse]=], X = 204, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 15, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 113, Y = 32, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 111, Y = 100, TYPE = 6 }
+	},
+	tra_fild03 = {
+		{ name = [=[Warehouse]=], X = 204, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 15, Y = 110, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 113, Y = 32, TYPE = 6 },
+		{ name = [=[Warehouse]=], X = 111, Y = 100, TYPE = 6 }
+	},
+	kindlbrk = {
+		{ name = [=[Shop]=], X = 223, Y = 130, TYPE = 0 }, 
+		{ name = [=[Kafra Employee]=], X = 176, Y = 124, TYPE = 6 }, 
+		{ name = [=[Inn]=], X = 169, Y = 190, TYPE = 5 }
 	}
 }
 

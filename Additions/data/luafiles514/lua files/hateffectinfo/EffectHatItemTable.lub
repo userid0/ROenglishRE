@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 effectHatItemTable = {
 	19602,
@@ -17,7 +17,6 @@ effectHatItemTable = {
 	480380,
 	480444,
 	480468,
-	480469,
 	20522,
 	20285,
 	20209,
@@ -134,5 +133,9 @@ effectHatItemTable = {
 	420501,
 	420350,
 	420349,
-	420384
+	420384,
+	420351,
+	420516,
+	420729,
+	420730
 }

@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 SPRITE_ROBE_IDs = {
 	ROBE_WINGS = 1,
@@ -273,5 +273,34 @@ SPRITE_ROBE_IDs = {
 	ROBE_Glutton_Cerberus = 267,
 	ROBE_C_CLB_DT_TS_Wing = 268,
 	ROBE_Giant_Mad_Bunny_TW_LT = 269,
-	ROBE_C_Starrysky_Fountainpen = 270
+	ROBE_C_Starrysky_Fountainpen = 270,
+	ROBE_C_S_Beelzebub_Wing = 271,
+	ROBE_C_Pitaya_V_Bag = 272,
+	ROBE_C_Dimensional_Sword = 273,
+	ROBE_C_Immortal_H_Spear = 274,
+	ROBE_C_Immortal_H_Spear_J = 275,
+	ROBE_C_Qualifier_1st = 276,
+	ROBE_C_Qualifier_2nd = 277,
+	ROBE_C_Qualifier_3rd = 278,
+	ROBE_C_Melon_Cream_Soda = 279,
+	ROBE_C_Sorcerer_Cape = 280,
+	ROBE_Huse_Luk_R_Wing_LT = 281,
+	ROBE_C_2025RosFesta = 282,
+	ROBE_C_Clock_Rod = 283,
+	ROBE_C_Mechanical_Fairy_Wing = 284,
+	ROBE_C_Detective_Mag_Glass = 285,
+	ROBE_C_N_Mad_Bunny = 286,
+	ROBE_C_Herald_Of_GOD = 287,
+	ROBE_C_Nifl_Bloom_RD = 288,
+	ROBE_Arcanum_Corvus_Corax = 289,
+	ROBE_C_Popcorn_Bucket2 = 290,
+	ROBE_C_Cursed_Serpent = 291,
+	ROBE_C_Tan_Spear = 292,
+	ROBE_C_Tris_Sword = 293,
+	ROBE_Angelwing_move_Test_8F = 294,
+	ROBE_Angelwing_move_Test_24F = 295,
+	ROBE_C_Scepter_SV = 296,
+	ROBE_C_Giant_Chained_Bear = 297,
+	ROBE_C_Sweet_Folk = 298,
+	ROBE_C_Sixth_Sense_Satan = 299
 }

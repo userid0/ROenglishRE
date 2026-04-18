@@ -2,15 +2,212 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20251008
+-- Last updated: 20260322
 
 mapTbl = {
+	["1@ch2a.rsw"] = {
+		displayName = "Nirhold",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Unknown Dimension",
+			mainTitle = "Nirhold"
+		},
+		backgroundBmp = "noname"
+	},
+	["1@ch2b.rsw"] = {
+		displayName = "Intersection of Tangled Magic Power",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Intersection of Tangled Magic Power"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch2gms.rsw"] = {
+		displayName = "Shelter Geminis",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Shelter Geminis"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch2safe1.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch2safe2.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch2safe3.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ch2safe4.rsw"] = {
+		displayName = "Safe Place",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Safe Place"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["kin_in01.rsw"] = {
+		displayName = "Inside Yongjirak",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Inside Yongjirak"
+		},
+		backgroundBmp = "village_s2"
+	},
+	["kindlbrk.rsw"] = {
+		displayName = "Yongjirak",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim Harban's Village",
+			mainTitle = "Yongjirak"
+		},
+		backgroundBmp = "village"
+	},
+	["mu_dun01.rsw"] = {
+		displayName = "Primordial Flame F1",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim",
+			mainTitle = "Primordial Flame F1"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["mu_dun02.rsw"] = {
+		displayName = "Primordial Flame F2",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim",
+			mainTitle = "Primordial Flame F2"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["mu_fild02.rsw"] = {
+		displayName = "Volund Plain",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim",
+			mainTitle = "Volund Plain"
+		},
+		backgroundBmp = "field2"
+	},
+	["mu_fild03.rsw"] = {
+		displayName = "Volund Forest",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim",
+			mainTitle = "Volund Forest"
+		},
+		backgroundBmp = "field2"
+	},
+	["deadroot.rsw"] = {
+		displayName = "Root of Death",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Muspelheim Erosion Zone",
+			mainTitle = "Root of Death"
+		},
+		backgroundBmp = "field2"
+	},
+	["ragsruth.rsw"] = {
+		displayName = "Ragsrut",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Unknown Dimension",
+			mainTitle = "Ragsrut"
+		},
+		backgroundBmp = "village"
+	},
+	["rgs_dun1.rsw"] = {
+		displayName = "Distorted Ragsrut",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Unknown Dimension",
+			mainTitle = "Distorted Ragsrut"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@gat.rsw"] = {
+		displayName = "Inside the suspicious portal",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Eagle Five",
+			mainTitle = "Inside the suspicious portal"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["veledor.rsw"] = {
+		displayName = "Sanctuary Beledor",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Sanctuary Beledor"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@krns.rsw"] = {
+		displayName = "Beledor - The Trial",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Beledor - The Trial"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["1@alta.rsw"] = {
+		displayName = "Spring of Tangled Magic",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "Spring of Tangled Magic"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["tra_fild01.rsw"] = {
+		displayName = "Prontera Outskirts Basic Training Ground",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Prontera Outskirts",
+			mainTitle = "Basic Training Ground"
+		},
+		backgroundBmp = "field"
+	},
+	["tra_fild02.rsw"] = {
+		displayName = "Prontera Outskirts 1/10 Training Ground",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Prontera Outskirts",
+			mainTitle = "1/10 Training Ground"
+		},
+		backgroundBmp = "field"
+	},
+	["tra_fild03.rsw"] = {
+		displayName = "Prontera Outskirts 1/100 Training Ground",
+		notifyEnter = true,
+		signName = {
+			subTitle = "Prontera Outskirts",
+			mainTitle = "1/100 Training Ground"
+		},
+		backgroundBmp = "field"
+	},
 	["ch1fild1.rsw"] = {
-		displayName = "Twisted Dark Land - 1 Erosion",
+		displayName = "Twisted Land of Darkness - 1 Erosion",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Northern Midgard",
-			mainTitle = "Twisted Dark Land - 1 Erosion"
+			mainTitle = "Twisted Land of Darkness - 1 Erosion"
 		},
 		backgroundBmp = "noname"
 	},
@@ -204,28 +401,28 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["ygg_roots.rsw"] = {
-		displayName = "Twisted Dark Land",
+		displayName = "Twisted Land of Darkness",
 		notifyEnter = true,
 		signName = {
 			subTitle = "North of Midgard",
-			mainTitle = "Twisted Dark Land"
+			mainTitle = "Twisted Land of Darkness"
 		},
 		backgroundBmp = "noname"
 	},
 	["ygg_edge.rsw"] = {
-		displayName = "Water Lily Village",
+		displayName = "Ashwood Village",
 		notifyEnter = true,
 		signName = {
 			subTitle = "Edge of the World Tree",
-			mainTitle = "Water Lily Village"
+			mainTitle = "Ashwood Village"
 		},
 		backgroundBmp = "village"
 	},
 	["ygg_fruit.rsw"] = {
-		displayName = "Inside Water Lily Village",
+		displayName = "Inside Ashwood Village",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Inside Water Lily Village"
+			mainTitle = "Inside Ashwood Village"
 		},
 		backgroundBmp = "village_s2"
 	},
@@ -402,20 +599,20 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["jor_sklf1.rsw"] = {
-		displayName = "Jormungand Cult Shrine 1st Floor",
+		displayName = "Jormungand Cult Temple F1",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Annex of the Jormungand Cult Shrine",
-			mainTitle = "Yorscalp 1st Floor"
+			subTitle = "Annex of the Jormungand Cult",
+			mainTitle = "Temple Yorscalp F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["jor_sklf2.rsw"] = {
-		displayName = "Jormungand Cult Shrine 2nd Floor",
+		displayName = "Jormungand Cult Temple F2",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Annex of the Jormungand Cult Shrine",
-			mainTitle = "Yorscalp 2nd Floor"
+			subTitle = "Annex of the Jormungand Cult ",
+			mainTitle = "Temple Yorscalp F2"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -533,20 +730,20 @@ mapTbl = {
 		backgroundBmp = "field2_s2"
 	},
 	["jor_tmple1.rsw"] = {
-		displayName = "Jormungand Cult Temple Gimleh 1st Floor",
+		displayName = "Jormungand Cult Temple Gimleh F1",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Jormungand Cult Temple Gimleh",
-			mainTitle = "1st Floor"
+			subTitle = "Jormungand Cult ",
+			mainTitle = "Temple Gimleh F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["jor_tmple2.rsw"] = {
-		displayName = "Jormungand Cult Temple Gimleh 2nd Floor",
+		displayName = "Jormungand Cult Temple Gimleh F2",
 		notifyEnter = true,
 		signName = {
-			subTitle = "Jormungand Cult Temple Gimleh",
-			mainTitle = "2nd Floor"
+			subTitle = "Jormungand Cult ",
+			mainTitle = "Temple Gimleh F2"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -791,18 +988,18 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["jor_root1.rsw"] = {
-		displayName = "Snake God's Root 1F",
+		displayName = "Snake God's Root F1",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Snake God's Root 1F"
+			mainTitle = "Snake God's Root F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["jor_root2.rsw"] = {
-		displayName = "Snake God's Root 2F",
+		displayName = "Snake God's Root F2",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Snake God's Root 2F"
+			mainTitle = "Snake God's Root F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -1254,18 +1451,18 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["jor_dun01.rsw"] = {
-		displayName = "Snake God's Warmth 1st Floor",
+		displayName = "Snake God's Warmth F1",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Snake God's Warmth 1st Floor"
+			mainTitle = "Snake God's Warmth F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["jor_dun02.rsw"] = {
-		displayName = "Snake God's Warmth 2nd Floor",
+		displayName = "Snake God's Warmth F2",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Snake God's Warmth 2nd Floor"
+			mainTitle = "Snake God's Warmth F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -1278,18 +1475,18 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["jor_ab01.rsw"] = {
-		displayName = "Abandoned Pit 1st Floor",
+		displayName = "Abandoned Pit F1",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Abandoned Pit 1st Floor"
+			mainTitle = "Abandoned Pit F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["jor_ab02.rsw"] = {
-		displayName = "Abandoned Pit 2nd Floor",
+		displayName = "Abandoned Pit F2",
 		notifyEnter = true,
 		signName = {
-			mainTitle = "Abandoned Pit 2nd Floor"
+			mainTitle = "Abandoned Pit F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -1505,18 +1702,18 @@ mapTbl = {
 		backgroundBmp = "field_s2"
 	},
 	["oz_dun01.rsw"] = {
-		displayName = "Oz's Labyrinth 1F",
+		displayName = "Oz's Labyrinth F1",
 		notifyEnter = true,
 		signName ={
-			mainTitle = "Oz's Labyrinth 1F"
+			mainTitle = "Oz's Labyrinth F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["oz_dun02.rsw"] = {
-		displayName = "Oz's Labyrinth 2F",
+		displayName = "Oz's Labyrinth F2",
 		notifyEnter = true,
 		signName ={
-			mainTitle = "Oz's Labyrinth 2F"
+			mainTitle = "Oz's Labyrinth F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -2024,10 +2221,10 @@ mapTbl = {
 		backgroundBmp = "dungeon_s2"
 	},
 	["ein_dun03.rsw"] = {
-		displayName = "Einbech Mine 3F",
+		displayName = "Einbech Mine F3",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Einbech Mine 3F"
+			mainTitle = "Einbech Mine F3"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -2040,11 +2237,11 @@ mapTbl = {
 		backgroundBmp = "field2_s2"
 	},
 	["abyss_04.rsw"] = {
-		displayName = "Abyss Lake Underground Cave 4F",
+		displayName = "Abyss Lake Underground Cave F4",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
-			mainTitle = "Underground Cave 4F"
+			mainTitle = "Underground Cave F4"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -3586,34 +3783,34 @@ mapTbl = {
 		displayName = "Eclage Interior"
 	},
 	["ecl_tdun01.rsw"] = {
-		displayName = "Bifrost Tower 1F",
+		displayName = "Bifrost Tower F1",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Bifrost Tower 1F"
+			mainTitle = "Bifrost Tower F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ecl_tdun02.rsw"] = {
-		displayName = "Bifrost Tower 2F",
+		displayName = "Bifrost Tower F2",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Bifrost Tower 2F"
+			mainTitle = "Bifrost Tower F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ecl_tdun03.rsw"] = {
-		displayName = "Bifrost Tower 3F",
+		displayName = "Bifrost Tower F3",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Bifrost Tower 3F"
+			mainTitle = "Bifrost Tower F3"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ecl_tdun04.rsw"] = {
-		displayName = "Bifrost Tower 4F",
+		displayName = "Bifrost Tower F4",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Bifrost Tower 4F"
+			mainTitle = "Bifrost Tower F4"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -3769,7 +3966,7 @@ mapTbl = {
 		displayName = "Hidden Place"
 	},
 	["gld_dun01_2.rsw"] = {
-		displayName = "Greenwood Lake Dungeon 2F",
+		displayName = "Greenwood Lake Dungeon F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Greenwood Lake",
@@ -3778,7 +3975,7 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["gld_dun02_2.rsw"] = {
-		displayName = "Louisa Dungeon 2F",
+		displayName = "Louisa Dungeon F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Louisa",
@@ -3787,7 +3984,7 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["gld_dun03_2.rsw"] = {
-		displayName = "Valkyrie Realm Dungeon 2F",
+		displayName = "Valkyrie Realm Dungeon F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Valkyrie Realm",
@@ -3796,7 +3993,7 @@ mapTbl = {
 		backgroundBmp = "dungeon"
 	},
 	["gld_dun04_2.rsw"] = {
-		displayName = "Brittoria Dungeon 2F",
+		displayName = "Brittoria Dungeon F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Brittoria",
@@ -4952,26 +5149,26 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["thor_v01.rsw"] = {
-		displayName = "Thor Volcano Dungeon 1F",
+		displayName = "Thor Volcano Dungeon F1",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Thor Volcano Dungeon 1F"
+			mainTitle = "Thor Volcano Dungeon F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["thor_v02.rsw"] = {
-		displayName = "Thor Volcano Dungeon 2F",
+		displayName = "Thor Volcano Dungeon F2",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Thor Volcano Dungeon 2F"
+			mainTitle = "Thor Volcano Dungeon F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["thor_v03.rsw"] = {
-		displayName = "Thor Volcano Dungeon 3F",
+		displayName = "Thor Volcano Dungeon F3",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Thor Volcano Dungeon 3F"
+			mainTitle = "Thor Volcano Dungeon F3"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -5116,71 +5313,71 @@ mapTbl = {
 		backgroundBmp = "field_s2"
 	},
 	["ra_san01.rsw"] = {
-		displayName = "Rachel Temple Sanctuary North Area 1F",
+		displayName = "Rachel Temple Sanctuary F1 North Area",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Rachel Temple",
-			mainTitle = "Sanctuary North Area 1F"
+			mainTitle = "Sanctuary North Area F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ra_san02.rsw"] = {
-		displayName = "Rachel Temple Sanctuary West Area 1F",
+		displayName = "Rachel Temple Sanctuary F1 West Area",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Rachel Temple",
-			mainTitle = "Sanctuary West Area 1F"
+			mainTitle = "Sanctuary West Area F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ra_san03.rsw"] = {
-		displayName = "Rachel Temple Sanctuary East Area 1F",
+		displayName = "Rachel Temple Sanctuary F1 East Area",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Rachel Temple",
-			mainTitle = "Sanctuary East Area 1F"
+			mainTitle = "Sanctuary East Area F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ra_san04.rsw"] = {
-		displayName = "Rachel Temple Sanctuary South Area 1F",
+		displayName = "Rachel Temple Sanctuary F1 South Area",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Rachel Temple",
-			mainTitle = "Sanctuary South Area 1F"
+			mainTitle = "Sanctuary South Area F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ra_san05.rsw"] = {
-		displayName = "Rachel Temple Sanctuary Central Area 2F",
+		displayName = "Rachel Temple Sanctuary F2 Central Area",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Rachel Temple",
-			mainTitle = "Sanctuary Central Area 2F"
+			mainTitle = "Sanctuary Central Area F2"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["ice_dun01.rsw"] = {
-		displayName = "Rachel Ice Cave 1F",
+		displayName = "Rachel Ice Cave F1",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Rachel Ice Cave 1F"
+			mainTitle = "Rachel Ice Cave F1"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ice_dun02.rsw"] = {
-		displayName = "Rachel Ice Cave 2F",
+		displayName = "Rachel Ice Cave F2",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Rachel Ice Cave 2F"
+			mainTitle = "Rachel Ice Cave F2"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
 	["ice_dun03.rsw"] = {
-		displayName = "Rachel Ice Cave 3F",
+		displayName = "Rachel Ice Cave F3",
 		notifyEnter = true, 
 		signName = {
-			mainTitle = "Rachel Ice Cave 3F"
+			mainTitle = "Rachel Ice Cave F3"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -5356,29 +5553,29 @@ mapTbl = {
 		backgroundBmp = "noname_s2"
 	},
 	["abyss_01.rsw"] = {
-		displayName = "Abyss Lake Underground Cave 1F",
+		displayName = "Abyss Lake Underground Cave F1",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
-			mainTitle = "Underground Cave 1F"
+			mainTitle = "Underground Cave F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["abyss_02.rsw"] = {
-		displayName = "Abyss Lake Underground Cave 2F",
+		displayName = "Abyss Lake Underground Cave F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
-			mainTitle = "Underground Cave 2F"
+			mainTitle = "Underground Cave F2"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["abyss_03.rsw"] = {
-		displayName = "Abyss Lake Underground Cave 3F",
+		displayName = "Abyss Lake Underground Cave F3",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Abyss Lake",
-			mainTitle = "Underground Cave 3F"
+			mainTitle = "Underground Cave F3"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -6879,11 +7076,11 @@ mapTbl = {
 		displayName = "Inside Lutie"
 	},
 	["xmas_dun02.rsw"] = {
-		displayName = "Toy Monitoring Room",
+		displayName = "Toy Classification Center",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Lutie",
-			mainTitle = "Toy Monitoring Room"
+			mainTitle = "Toy Classification Center"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -7590,7 +7787,7 @@ mapTbl = {
 		displayName = "Undersea Tunnel B1",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Baylan Island",
+			subTitle = "Byalan Island",
 			mainTitle = "Undersea Tunnel B1"
 		},
 		backgroundBmp = "dungeon"
@@ -7599,7 +7796,7 @@ mapTbl = {
 		displayName = "Undersea Tunnel B2",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Baylan Island",
+			subTitle = "Byalan Island",
 			mainTitle = "Undersea Tunnel B2"
 		},
 		backgroundBmp = "dungeon"
@@ -7608,7 +7805,7 @@ mapTbl = {
 		displayName = "Undersea Tunnel B3",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Baylan Island",
+			subTitle = "Byalan Island",
 			mainTitle = "Undersea Tunnel B3"
 		},
 		backgroundBmp = "dungeon"
@@ -7617,7 +7814,7 @@ mapTbl = {
 		displayName = "Undersea Tunnel B4",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Baylan Island",
+			subTitle = "Byalan Island",
 			mainTitle = "Undersea Tunnel B4"
 		},
 		backgroundBmp = "dungeon"
@@ -7626,7 +7823,7 @@ mapTbl = {
 		displayName = "Undersea Tunnel B5",
 		notifyEnter = true, 
 		signName = {
-			subTitle = "Baylan Island",
+			subTitle = "Byalan Island",
 			mainTitle = "Undersea Tunnel B5"
 		},
 		backgroundBmp = "dungeon"
@@ -7740,29 +7937,29 @@ mapTbl = {
 		backgroundBmp = "noname"
 	},
 	["mjo_dun01.rsw"] = {
-		displayName = "Mjolnir Dead Pit F1",
+		displayName = "Mjolnir Abandoned Mine F1",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "North of Mt. Mjolnir",
-			mainTitle = "Dead Pit F1"
+			mainTitle = "Abandoned Mine F1"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["mjo_dun02.rsw"] = {
-		displayName = "Mjolnir Dead Pit F2",
+		displayName = "Mjolnir Abandoned Mine F2",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "North of Mt. Mjolnir",
-			mainTitle = "Dead Pit F2"
+			mainTitle = "Abandoned Mine F2"
 		},
 		backgroundBmp = "dungeon"
 	},
 	["mjo_dun03.rsw"] = {
-		displayName = "Mjolnir Dead Pit F3",
+		displayName = "Mjolnir Abandoned Mine F3",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "North of Mt. Mjolnir",
-			mainTitle = "Dead Pit F3"
+			mainTitle = "Abandoned Mine F3"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -8168,11 +8365,11 @@ mapTbl = {
 		displayName = "Inside Izlude"
 	},
 	["izlu2dun.rsw"] = {
-		displayName = "Baylan Island",
+		displayName = "Byalan Island",
 		notifyEnter = true, 
 		signName = {
 			subTitle = "Izlude",
-			mainTitle = "Baylan Island"
+			mainTitle = "Byalan Island"
 		},
 		backgroundBmp = "field"
 	},
@@ -9133,7 +9330,8 @@ main = function()
 			if info.signName.mainTitle ~= nil then
 				mainTitle = info.signName.mainTitle
 			end
-			result = AddMapSignName(name, subTitle, mainTitle)
+			result = AddMapSignName(name, subTitle,
+			mainTitle)
 		end
 		if info.backgroundBmp ~= nil then
 			result = AddMapBackgroundBmp(name, info.backgroundBmp)

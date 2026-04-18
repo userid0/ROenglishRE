@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 HatEFID = {
 	HAT_EF_Blossom_Fluttering = 1,
@@ -271,5 +271,28 @@ HatEFID = {
 	FOOTPRINT_EF_dragon_face_2d = 264,
 	FOOTPRINT_EF_dragon_face_3d = 265,
 	HAT_EF_C_Over_Cloud = 266,
-	HAT_EF_C_Aurora_On_Clouds = 267
+	HAT_EF_C_Aurora_On_Clouds = 267,
+	HAT_EF_ROS_RedSpirit = 268,
+	HAT_EF_ROS_BlueSpirit = 269,
+	HAT_EF_Divine_Sky_Invite = 270,
+	FOOTPRINT_EF_divine = 271,
+	FOOTPRINT_EF_nyar_blue = 272,
+	FOOTPRINT_EF_nyar_purple = 273,
+	HAT_EF_C_Nightmare_Chain = 274,
+	HAT_EF_C_Spot_Mike = 275,
+	HAT_EF_C_Spot_Flower = 276,
+	HAT_EF_C_2025RosFesta = 277,
+	HAT_EF_Golden_Aura_TW = 278,
+	HAT_EF_C_S_Beelzebub_Wing = 279,
+	FOOTPRINT_EF_feather = 280,
+	HAT_EF_Solid_State_Recognition = 281,
+	HAT_EF_C_Cursed_Serpent = 282,
+	FOOTPRINT_EF_BASIC = 283,
+	HAT_EF_C_GGH_Anniversary = 284,
+	FOOTPRINT_EF_divine_blue = 285,
+	FOOTPRINT_EF_bluestar = 286,
+	FOOTPRINT_EF_phoenix = 287,
+	HAT_EF_C_CLB_GAT_doc = 288,
+	HAT_EF_C_EYE_OF_NECROMANCER = 289,
+	HAT_EF_C_JAOW_PIRUN = 290
 }

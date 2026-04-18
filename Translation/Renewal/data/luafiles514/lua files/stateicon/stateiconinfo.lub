@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20250716
+-- Last updated: 20260322
 
 COLOR_TITLE_BUFF = { 155, 202, 155 }
 COLOR_TITLE_DEBUFF = { 250, 100, 100 }
@@ -7513,5 +7513,389 @@ StateIconList[EFST_IDs.EFST_BLOCK] = {
 		{ "%s", COLOR_TIME },
 		{ "No Experience gained from monsters." },
 		{ "No Items are dropped from monsters." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_42] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dimensional Magic Resistance(Level 3)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Granted resistance to the dimensional" },
+		{ "magic of the Zero Cell Zone." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_44] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dimensional Magic Resistance(Level 4)", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Granted resistance to the powerful" },
+		{ "dimensional magic of the Zero Cell Zone." }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_40] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "ROS Light of Glory", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Experience gained from monsters +10%" },
+		{ "Item drop rate +5%" },
+		{ "Physical Damage +10%" },
+		{ "Magical Damage with every element +10%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_10] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of First Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases MaxHP and MaxSP." },
+		{ "ATK, MATK +5%." },
+		{ "ATK, MATK +50." }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_11] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Second Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Attack Speed (decreases After Attack Delay)." },
+		{ "Decreases Variable Casting Time." },
+		{ "Decreases After Skill Delay." }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_12] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Third Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage against monsters of every race (except Players)." },
+		{ "Increases Damage against enemies of every element and size." }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_13] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Fourth Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increased melee and ranged physical damage." },
+		{ "Increased critical and hit physical damage." },
+		{ "Increased all elemental magic damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_14] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Fifth Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases all Trait stats." },
+		{ "Increases P.ATK and S.MATK." },
+		{ "Increases RES and MRES." }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_15] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Sixth Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage against monsters of Normal class." },
+		{ "Increases Damage against monsters of Boss class." }
+	}
+}
+StateIconList[EFST_IDs.EFST_WEREWOLF] = {
+	haveTimeLimit = 0,
+	descript = {
+		{ "Transformation: Werewolf", COLOR_TITLE_BUFF },
+		{ "MaxHP +10%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ENRAGE_WOLF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enrage: Wolf", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Wolf skills." },
+		{ "Increases Melee Physical Damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_BLOOD_HOWLING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blood Howling", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases STR." },
+		{ "Increases LUK." },
+		{ "Increases HIT." }
+	}
+}
+StateIconList[EFST_IDs.EFST_WERERAPTOR] = {
+	haveTimeLimit = 0,
+	descript = {
+		{ "Transformation: Wereraptor", COLOR_TITLE_BUFF },
+		{ "Increases Movement Speed." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ENRAGE_RAPTOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enrage: Raptor", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Raptor skills." },
+		{ "Increases Ranged Physical Damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_PREENING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Preening", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases DEX." },
+		{ "Increases AGI." },
+		{ "Increases FLEE." }
+	}
+}
+StateIconList[EFST_IDs.EFST_TRUTH_OF_ICE] = {
+	haveTimeLimit = 0,
+	descript = {
+		{ "Truth of Ice", COLOR_TITLE_BUFF },
+		{ "Magical Damage with Water element +10%." },
+		{ "Increases Druid skill damage with Water element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_TRUTH_OF_WIND] = {
+	haveTimeLimit = 0,
+	descript = {
+		{ "Truth of Wind", COLOR_TITLE_BUFF },
+		{ "Magical Damage with Wind element +." },
+		{ "Increases Druid skill damage with Wind element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_TRUTH_OF_EARTH] = {
+	haveTimeLimit = 0,
+	descript = {
+		{ "Truth of Earth", COLOR_TITLE_BUFF },
+		{ "Magical Damage with Earth element +10%." },
+		{ "Increases Druid skill damage with Earth element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_TRANSFORM_DELAY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Transform Delay", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "You cannot transform currently." }
+	}
+}
+StateIconList[EFST_IDs.EFST_NATURE_SHIELD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Nature's Shield", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases DEF and MDEF." },
+		{ "Increases INT and VIT." }
+	}
+}
+StateIconList[EFST_IDs.EFST_IRON_HOWLING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Iron Howling", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases incoming damage." }
+	}
+}
+StateIconList[EFST_IDs.EFST_WIND_VEIL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Wind Veil", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases incoming damage." },
+		{ "Increases Movement Speed." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ICE_PILLAR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Ice Pillar", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases damage of Ice Totem, Ice Mist," },
+		{ "Ice Pillar and Ice Splash by 15%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_THUNDERING_ROD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Charge", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Charged with lightning." }
+	}
+}
+StateIconList[EFST_IDs.EFST_THUNDERING_ROD_MAX] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Overcharged", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Your next skill with Wind element is enhanced." }
+	}
+}
+StateIconList[EFST_IDs.EFST_GROUND_GROW] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Growth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "The flower buds of the earth are growing." }
+	}
+}
+StateIconList[EFST_IDs.EFST_NATURE_PROTECTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Nature Protection", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases incoming damage." },
+		{ "Recovers HP and SP." }
+	}
+}
+StateIconList[EFST_IDs.EFST_PULSE_OF_MADNESS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Pulse of Madness", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Madness can be aquired." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ALPHA_PHASE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Alpha Phase", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Madness Level 3 applied." }
+	}
+}
+StateIconList[EFST_IDs.EFST_APEX_PHASE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Apex Phase", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enhances Pinion Shot." },
+		{ "Enhances Quill Spear." },
+		{ "Enhances Tempest Flap." }
+	}
+}
+StateIconList[EFST_IDs.EFST_FLIP_FLAP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Flip Flap", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Ranged Physical Damage." },
+		{ "Increases Critical." }
+	}
+}
+StateIconList[EFST_IDs.EFST_FLIP_FLAP_TARGET] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Flip Flap", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Ranged Physical Damage." },
+		{ "Increases Critical." }
+	}
+}
+StateIconList[EFST_IDs.EFST_ZEPHYR_CHARGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Gale Charge", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_ZEPHYR_LINK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Gale Acceleration", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Melee Physical Damage." },
+		{ "Increases Ranged Physical Damage." },
+		{ "Increases Magical Damage with every element." }
+	}
+}
+StateIconList[EFST_IDs.EFST_INSANE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Madness Level 1", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_INSANE2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Madness Level 2", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_INSANE3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Madness Level 3", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_GLACIER_SHEILD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Glacial Monolith", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "I can feel the coldness of the Glacial Monolith." }
+	}
+}
+StateIconList[EFST_IDs.EFST_NATURE_HARMONY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Nature Harmony", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Magical Damage with Water," },
+		{ "Wind and Earth element." },
+		{ "Increases damage taken from Water," },
+		{ "Wind and Earth element attacks." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SOLID_STOMP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Solid Stomp", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases incoming physical damage." },
+		{ "Increases Magical Damage with Earth element." }
 	}
 }

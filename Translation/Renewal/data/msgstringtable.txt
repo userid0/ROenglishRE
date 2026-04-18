@@ -185,7 +185,7 @@ There are %d Players Currently Connected.#
 %s %s: %d#
 Available Items to sell#
 Shop Items#
-Unknown Area#
+Random Area#
 Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
 This server provides English Text Characters Only.#
@@ -1697,7 +1697,7 @@ Item purchase failed due to incorrect shop information.#
 Item cannot be dropped from the hotkey bar.#
 hour(s)#
 Map#
-You can't use, equip or disarm items when you're trading.#
+You can't use, equip or unequip items when you're trading.#
 Unspecified value#
 /stateinfo : Shows the description of status icons. On Off#
 Status Information On: Status icon description is enabled.#
@@ -1706,7 +1706,7 @@ It is not possible to purchase the same item more than %d pieces at a time#
 It is not possible to purchase the same item more than %d pieces at a time#
 Can purchase upto %d pieces of the same item at a time.#
 User customized key is saved to [%s\%s]#
-[%s] is currently on trade and cannot accept the request.#
+[%s] is currently busy and cannot accept the request.#
 RO_HELP#
 Anvil does not exist.#
 Novice below level 10 is not allowed to whisper.#
@@ -1789,8 +1789,8 @@ Cannot move to the applied area.#
 Include similar items?#
 User has been expelled.#
 You have not accepted the user agreements yet.#
-You will not be disconnect from the game.#
-It is available only for 12 hours.#
+This account does not exist.#
+This game is rated 12+.#
 Your account is blocked due to illegal use of the game account.#
 Your account is blocked because there may exist a bug with your account.#
 Increases base exp and job exp gained by killing monsters up to 75%% for 30 minutes.#
@@ -1798,7 +1798,7 @@ Increases base exp and job exp gained by killing monsters up to 50%% for 30 minu
 No sales information.#
 Failed to search any further.#
 The selected item does not exist.#
-You cannot search yet again.#
+You cannot search again yet.#
 Enter the card name or prefix/suffix.#
 Attempts: %d#
 Nothing found.#
@@ -1860,15 +1860,15 @@ Cash Points : %s C#
 You cannot summon a monster in this area.#
 Exceeded total free cash#
 Content has been saved in [SaveData_ExMacro%d]#
-%d seconds left until you can use#
+%d seconds left until you can reuse the item.#
 Must be equipped with [Spear].#
-Available only on the dragon.#
-Unable to proceed due to exceeding capacity.#
+Can only be used while riding a dragon.#
+Unable to proceed, maximum server capacity reached.#
 Real name has not been verified. Go to name verification site.#
 Please select slot you are going to save.#
 Congratulation %s,  Acquired [%s] !#
 Unable to use in gloomy state#
-Purchased products has exceeded the total price.#
+The total value of purchased items exceeds the maximum amount the character can hold.#
 Cannot join a party in this map.#
 Cannot leave a party in this map.#
 Cannot withdraw/break the party in this map.#
@@ -1876,7 +1876,7 @@ Real Name#
 ID Number#
 E-mail#
 Invalid input#
-Failed to send the zeny #
+Failed to send the Zeny, the receiving character has exceeded the maximum amount of Zeny they can hold.#
 This is not a relevant job#
 This is not a relevant gender#
 User information identification was successful.#
@@ -1898,7 +1898,7 @@ Unable to use restricted number in 2nd password.#
 Unable to use your KSSN number.#
 ~There is already a password.#
 Security Code#
-Account for the additional password security settings are recommended.#
+For account security, we recommend setting an additional password.#
 Do not use secure password.#
 Use the set security password failed.#
 Use secure passwords. Will be applied to your next login.#
@@ -1921,10 +1921,10 @@ When died#
 When invited to a party#
 Pickup Item#
 Over 85%% Weight#
-Any work in progress (NPC dialog, manufacturing ...) quit and try again.#
-Monster Job hunting experience that you can get through the doubling of %d is %.2f minutes.#
+Please finish the task in progress (NPC conversation, manufacturing ...) and try again.#
+Job experience gained from hunting monsters increases by %.2f times for %d minutes.#
 SaveData_ExMacro %d#
-Settings for [%s] are stored in.#
+Your settings will be saved to [%s].#
 Security level#
 The current character is a party or join the guild cannot be deleted.#
 Objects can be used only near the wall.#
@@ -3329,7 +3329,7 @@ ERROR DATABASE#
 ERROR SYSTEM#
 Use %s#
 Payment#
-This map isn't available for restart.#
+This map isn't available for teleport.#
 You can't teleport in this map#
 Insufficient item.#
 Please enter one line without line breaks.#
