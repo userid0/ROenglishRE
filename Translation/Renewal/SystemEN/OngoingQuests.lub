@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20260304
+-- Last updated: 20260424
 -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
 
 QuestInfoList = {}
@@ -58809,6 +58809,137 @@ QuestInfoList = {
 			"An oval model was obtained. Could it be used somewhere?"
 		},
 		Summary = "Investigation"
+	},
+	[16965] = {
+		Title = "2025 Yuno Fall Academic Festival",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This fall academic festival was held at Yuno again this year. Let’s listen to the introduction of <NAVI>[Reiji]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI>, the academic festival ambassador."
+		},
+		Summary = "Participation in academic festivals"
+	},
+	[16966] = {
+		Title = "Knowing History Understands the Future",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's answer the survey and reminisce about what we experienced during our adventure at the Yuno Academic Festival <NAVI>[Rekenber History Research Society]<INFO>yuno.gat,139,204,0,101,0</INFO></NAVI> booth. Your adventures are history."
+		},
+		Summary = "Survey Response"
+	},
+	[16967] = {
+		Title = "[Standby] Knowing History Understands the Future",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be completed again when the waiting time expires. Quests can be accepted through the Yuno Academic Festival <NAVI>[Rekenber History Research Association President]<INFO>yuno.gat,139,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16968] = {
+		Title = "Sweet Cookies, Lovely Loveleang",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's participate in the event promoting the cookies made by Orleans to people around us at the Yuno Academic Festival <NAVI>[Loveleang]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI> booth."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16969] = {
+		Title = "Delicious Cookie Promotion",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's hand one of Orleans' cookies to <NAVI>[visitor]<INFO>yuno.gat,153,199,0,101,0</INFO></NAVI> who came to see the Yuno Academic Festival."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16970] = {
+		Title = "Delicious Cookie Promotion",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's hand one of Orleans' cookies to <NAVI>[visitor]<INFO>yuno.gat,141,200,0,101,0</INFO></NAVI> who came to see the Yuno Academic Festival."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16971] = {
+		Title = "Delicious Cookie Promotion",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's hand one of Orleans' cookies to <NAVI>[visitor]<INFO>yuno.gat,121,174,0,101,0</INFO></NAVI> who came to see the Yuno Academic Festival."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16972] = {
+		Title = "Delicious Cookie Promotion",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's hand one of Orleans' cookies to <NAVI>[visitor]<INFO>yuno.gat,123,152,0,101,0</INFO></NAVI> who came to see the Yuno Academic Festival."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16973] = {
+		Title = "Delicious Cookie Promotion",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Let's hand one of Orleans' cookies to <NAVI>[visitor]<INFO>yuno.gat,199,152,0,101,0</INFO></NAVI> who came to see the Yuno Academic Festival."
+		},
+		Summary = "Cookie Promotion"
+	},
+	[16974] = {
+		Title = "[Standby] Sweet Cookies, Lovely Lovelang",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be completed again when the waiting time expires. Quests can be accepted through the Yuno Academic Festival <NAVI>[Lovelang]<INFO>yuno.gat,175,204,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16975] = {
+		Title = "We are Nyangnyang Ludens",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"I decided to experience games with professional gamers at the Yuno Academic Festival <NAVI>[Nyangi Gamers Booth]<INFO>yuno.gat,196,188,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Competing with the Players"
+	},
+	[16976] = {
+		Title = "It's a game of rock, paper, scissors!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Compete with <NAVI>[Rock-paper-scissors players]<INFO>yuno.gat,185,186,0,101,0</INFO></NAVI> who participated in the Yuno Academic Festival!"
+		},
+		Summary = "Rock-Paper-Scissors Match"
+	},
+	[16977] = {
+		Title = "It's a close game!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Compete with <NAVI>[Player Kongnyangkong]<INFO>yuno.gat,185,179,0,101,0</INFO></NAVI> who participated in the Yuno Academic Festival!"
+		},
+		Summary = "A close match"
+	},
+	[16978] = {
+		Title = "It's a real showdown!",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"Compete with <NAVI>[Player Cham Cham Cham]<INFO>yuno.gat,190,189,0,101,0</INFO></NAVI> who participated in the Yuno Academic Festival!"
+		},
+		Summary = "A real showdown"
+	},
+	[16979] = {
+		Title = "[Standby] We are Nyangnyang Ludens Danyang",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"This quest is a daily quest and can be completed again when the waiting time expires. Quests can be accepted through the Yuno Academic Festival <NAVI>[Chief Cat]<INFO>yuno.gat,196,188,0,101,0</INFO></NAVI>."
+		},
+		Summary = "Reset at 04:00",
+		CoolTimeQuest = 1
+	},
+	[16980] = {
+		Title = "The one and only Kafra experience",
+		IconName = "ico_ev.bmp",
+		Description = {
+			"At the Yuno Academic Festival <NAVI>[Kafra Booth]<INFO>yuno.gat,176,155,0,101,0</INFO></NAVI>, I decided to have a one-day Kafra experience rescuing fallen adventurers in the field."
+		},
+		Summary = "Adventurer rescue"
 	},
 	-- Note: These quests from iRO are different from kRO's (They're used on Cat Pub quests)
 	[17000] = {

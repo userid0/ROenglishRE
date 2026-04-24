@@ -450,7 +450,7 @@ Quadruple#
 You are prohibited to log in until %s.#
 's #
 's Fire #
-'s Ice #
+'s Water #
 's Wind #
 's Earth #
 127.0.0.1#
