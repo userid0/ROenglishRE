@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20241005
+-- Last updated: 20230321
 
 HelpMsgStr = {
 	"/tip : Opens \"Tip of the Day\" window",
@@ -73,10 +73,10 @@ HelpMsgStr = {
 	"/tingonly: You can hear only sound like a chat room entry.",
 	"/monsterhp: Toggles monster HP information when attacking. On/Off",
 	"Hunting and Equipment quests are available through the Eden Group. Find them via the '+' mark on the mini-map of each city.",
-	" -------------- Navigation Instructions -------------- ",
-	"/navigation    /navi  :  /navi yuno 100/100           ->> Map, location(100/100)",
-	"/navigation2  /navi2 :  /navi2 yuno 100/100 1/1/1 ->> Map, location(100/100), Scroll/Service/Plane (1:Enable 0: Disable)",
-	" -------------- Navigation Search Commands ------- ",
+	" -------------- Navigation Chat Commands -------------- ",
+	"/navigation    /navi  :  /navi prontera 100/100           ->> MAP X/Y",
+	"/navigation2  /navi2 :  /navi2 prontera 100/100 1/1/1 ->> MAP X/Y Scroll/Service/Airship (1:Enable 0: Disable)",
+	" -------------- Navigation UI Commands -------------- ",
 	"$$all         : Outputs all the results (Type of navigation can be specified).",
 	"$$lv30       : Monsters of that level are displayed (Amount may vary).",
 	"$$lv20~30  : Monster of that level range are displayed (Amount may vary).",

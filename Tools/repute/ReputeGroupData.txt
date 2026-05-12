@@ -1,0 +1,64 @@
+{
+    "ReputeGroup": {
+        "1": {
+            "ID": "MonsterGroup1",
+            "Name": "Friends",
+            "ReputeList": [
+                1,
+                2
+            ]
+        },
+        "2": {
+            "ID": "Arunafelts",
+            "Name": "Arunafeltz",
+            "ReputeList": [
+                3
+            ]
+        },
+        "3": {
+            "ID": "Isgard",
+            "Name": "Isgard",
+            "ReputeList": [
+                4,
+                5
+            ]
+        },
+        "4": {
+            "ID": "BioSphere",
+            "Name": "Biosphere",
+            "ReputeList": [
+                6,
+                9
+            ]
+        },
+        "5": {
+            "ID": "SpecialPass",
+            "Name": "Special Pass",
+            "ReputeList": [
+                10,
+                11,
+                12
+            ]
+        },
+        "6": {
+            "ID": "Lunaporma",
+            "Name": "Lunaforma",
+            "ReputeList": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+            ]
+        },
+        "7": {
+            "ID": "WorldTree",
+            "Name": "Song of the World Tree",
+            "ReputeList": [
+                20
+            ]
+        }
+    }
+}

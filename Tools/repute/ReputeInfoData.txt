@@ -1,0 +1,124 @@
+{
+    "reputeInfo": {
+        "1": {
+            "Invisible": "VISIBLE_TRUE",
+            "MaxPoint_Negative": 3000,
+            "MaxPoint_Positive": 3000,
+            "Name": "Orc Village"
+        },
+		"10": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 3500,
+            "Name": "Illusion Pass"
+        },
+        "11": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 3500,
+            "Name": "Sage's Legacy Pass"
+        },
+        "12": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 3500,
+            "Name": "Direction of Prayer Pass"
+        },
+		"13": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Geoborg Command"
+        },
+        "14": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Blackstar Nerius"
+        },
+        "15": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Forest Sage Heine"
+        },
+        "16": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "The Roegenburg Brothers"
+        },
+        "17": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Walther Fleet"
+        },
+        "18": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Wigner Top"
+        },
+        "19": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 1000,
+            "Name": "Richard Mercenaries"
+        },
+        "2": {
+            "Invisible": "VISIBLE_TRUE",
+            "MaxPoint_Negative": 3000,
+            "MaxPoint_Positive": 3000,
+            "Name": "Goblin Village"
+        },
+		"20": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 0,
+            "MaxPoint_Positive": 2000,
+            "Name": "Golden Root"
+        },
+        "3": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 5000,
+            "MaxPoint_Positive": 5000,
+            "Name": "Gray Wolf Town"
+        },
+        "4": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 3000,
+            "MaxPoint_Positive": 3000,
+            "Name": "Ice Castle"
+        },
+        "5": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 3000,
+            "MaxPoint_Positive": 3000,
+            "Name": "White Cat Alliance"
+        },
+        "6": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 5000,
+            "MaxPoint_Positive": 5000,
+            "Name": "In Depth 1 Research"
+        },
+        "7": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 3000,
+            "MaxPoint_Positive": 3000,
+            "Name": "Hero Alliance"
+        },
+        "8": {
+            "Invisible": "VISIBLE_FALSE",
+            "MaxPoint_Negative": 1000,
+            "MaxPoint_Positive": 1000,
+            "Name": "Bard"
+        },
+        "9": {
+            "Invisible": "VISIBLE_EXIST",
+            "MaxPoint_Negative": 5000,
+            "MaxPoint_Positive": 5000,
+            "Name": "In Depth Abyss Research"
+        }
+    }
+}
